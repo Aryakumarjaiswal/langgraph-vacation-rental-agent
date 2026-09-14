@@ -87,7 +87,6 @@ vacation-property/
 │   ├── streamlit-service.yaml   # LoadBalancer for UI
 │   ├── pvc.yaml                 # Chroma persistent volume
 │   └── hpa.yaml                 # API autoscaler (2–6 pods, CPU 70%)
-├── K8S.md                       # Kubernetes YAML guide (Hinglish)
 ├── Database.py                  # SQLAlchemy models (4 tables)
 ├── streamlit_app.py             # App entry + navigation
 ├── .env.example                 # Environment template
