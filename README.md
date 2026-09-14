@@ -22,7 +22,6 @@ The app ships with a **Streamlit** multi-page UI, a **FastAPI** auth layer, and 
 - 🔐 **Auth:** bcrypt password hashing, role-based access (`guest` / `staff`)
 - 🐳 **Containerization:** Docker (separate API + Streamlit images)
 - ☸️ **Orchestration:** Kubernetes (Deployments, Services, PVC, HPA)
-- 🔄 **CI/CD:** GitHub Actions (test, build, push to GHCR)
 
 ---
 
@@ -88,8 +87,7 @@ vacation-property/
 │   ├── streamlit-service.yaml   # LoadBalancer for UI
 │   ├── pvc.yaml                 # Chroma persistent volume
 │   └── hpa.yaml                 # API autoscaler (2–6 pods, CPU 70%)
-├── .github/workflows/
-│   └── cicd.yml                 # Test + build + push images
+├── K8S.md                       # Kubernetes YAML guide (Hinglish)
 ├── Database.py                  # SQLAlchemy models (4 tables)
 ├── streamlit_app.py             # App entry + navigation
 ├── .env.example                 # Environment template
@@ -246,7 +244,7 @@ docker run --rm -p 8501:8501 --env-file .env \
 
 **Prerequisites:** cluster access, `kubectl`, external MySQL, `data/final_data.xlsx` in the image or mounted volume.
 
-1. **Update image names** in `k8s/api-deployment.yaml` and `k8s/streamlit-deployment.yaml` to match your GHCR path (after CI/CD push).
+1. **Build Docker images** (see Docker section above), then set the same tag in `k8s/api-deployment.yaml` and `k8s/streamlit-deployment.yaml` (default: `stayops-api:latest`, `stayops-streamlit:latest`).
 
 2. **Create secrets** (never commit `k8s/secret.yaml`):
 
@@ -289,21 +287,6 @@ kubectl get svc stayops-streamlit
 | HPA | `stayops-api-hpa` | Scales API 2→6 pods at 70% CPU |
 
 Set `PUBLIC_API_URL` in secrets to your **public API URL** so Twilio can fetch TwiML.
-
----
-
-## 🔄 CI/CD (GitHub Actions)
-
-Workflow: `.github/workflows/cicd.yml`
-
-On push to `main` / `master`:
-
-1. **Test** — install deps, `compileall` syntax check  
-2. **Build & push** — Docker images to GitHub Container Registry:
-   - `ghcr.io/<owner>/<repo>-api:latest`
-   - `ghcr.io/<owner>/<repo>-streamlit:latest`
-
-Enable **Packages** write permission for `GITHUB_TOKEN` (default on GitHub Actions). After first push, pull images in Kubernetes or make packages public for cluster access.
 
 ---
 
