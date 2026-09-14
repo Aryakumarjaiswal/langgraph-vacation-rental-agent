@@ -1,0 +1,5 @@
+.env
+__pycache__
+*.pyc
+chroma_db/UNITS_INFO_CHUNCK/
+understand.md
