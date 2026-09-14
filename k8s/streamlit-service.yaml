@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: stayops-streamlit
+  labels:
+    app: stayops-streamlit
+spec:
+  type: LoadBalancer
+  selector:
+    app: stayops-streamlit
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8501

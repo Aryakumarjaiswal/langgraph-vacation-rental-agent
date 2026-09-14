@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stayops-streamlit
+  labels:
+    app: stayops-streamlit
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stayops-streamlit
+  template:
+    metadata:
+      labels:
+        app: stayops-streamlit
+    spec:
+      containers:
+        - name: streamlit
+          image: stayops-streamlit:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8501
+          envFrom:
+            - configMapRef:
+                name: stayops-config
+          env:
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: stayops-secrets
+                  key: DB_PASSWORD
+            - name: GEMINI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: stayops-secrets
+                  key: GEMINI_API_KEY
+          volumeMounts:
+            - name: chroma-data
+              mountPath: /app/chroma_db
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "1Gi"
+            limits:
+              cpu: "2000m"
+              memory: "2Gi"
+          readinessProbe:
+            tcpSocket:
+              port: 8501
+            initialDelaySeconds: 30
+            periodSeconds: 15
+          livenessProbe:
+            tcpSocket:
+              port: 8501
+            initialDelaySeconds: 60
+            periodSeconds: 30
+      volumes:
+        - name: chroma-data
+          persistentVolumeClaim:
+            claimName: stayops-chroma-pvc
