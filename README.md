@@ -1,2 +1,248 @@
-# langgraph-vacation-rental-agent
-LangGraph dual-agent platform for vacation rentals — RAG guest support, SQL ops assistant, Twilio voice escalation.
+# 🏡 StayOps — AI Vacation Rental Assistant
+
+An end-to-end **AI-powered vacation rental operations platform** that helps **guests** get instant answers about their stay and empowers **staff** to query booking data in plain language. Built with **Google Gemini**, **LangGraph**, **RAG (ChromaDB)**, and a **Twilio voice handoff** for human escalation.
+
+The app ships with a **Streamlit** multi-page UI, a **FastAPI** auth layer, and a lean **MySQL** schema focused on users, chat sessions, and support transfers.
+
+
+---
+
+
+
+## 🛠️ Tech Stack
+
+- 🧠 **Agent Orchestration:** LangGraph (dual state machines — Guest RAG + Ops SQL)
+- ⚡ **LLM Engine:** Google Gemini (`langchain-google-genai` + official `google.genai` client)
+- 🔍 **Retrieval:** ChromaDB + Hugging Face `BAAI/bge-small-en-v1.5` embeddings
+- 📄 **RAG Pipeline:** Section-based chunking, HTML stripping, property-scoped collections
+- 🖥️ **User Interface:** Streamlit (Guest portal + Team workspace)
+- 🚀 **Backend API:** FastAPI (login, health, Twilio TwiML webhook)
+- 🗄️ **Database:** MySQL + SQLAlchemy (4 core tables)
+- 📞 **Voice Handoff:** Twilio Programmable Voice (contextual `<Say>` on answer)
+- 🔐 **Auth:** bcrypt password hashing, role-based access (`guest` / `staff`)
+
+---
+
+
+
+## 🌟 Key Engineering Highlights
+
+- 🔄 **Dual-Agent Design:** Separate LangGraph workflows for **guest property Q&A** (RAG) and **staff operations** (guarded text-to-SQL) — same UI shell, isolated concerns.
+- 🏠 **Property-Scoped RAG:** Each listing gets its own Chroma collection (`collection_{property_id}`). Guests only retrieve docs tied to their account — no cross-property leakage.
+- 🔎 **Query Rewrite + Multi-Retrieve:** Guest agent expands the user question into retrieval variants, filters weak hits by cosine distance, and grounds Gemini answers in retrieved context.
+- 🛡️ **Ops SQL Guardrails:** Schema-constrained planner, DDL blocked, single-statement enforcement, `bookings_info` only, mandatory `WHERE` on `UPDATE`/`DELETE`.
+- 📞 **Contextual Voice Escalation:** When a guest asks for support, Twilio calls the on-call executive and speaks **property ID (digit-spaced) + reported issue** via dynamic TwiML from FastAPI.
+- 💬 **Session Persistence:** Chat history and support transfers stored in MySQL (`Session_table_2`, `Chat_table`, `chat_transfer_table`).
+- 🎯 **End-User UX:** Plain-language UI copy — no SQL/RAG jargon exposed to guests or staff.
+
+---
+
+
+
+## 📂 Repository Structure
+
+```text
+vacation-property/
+├── .streamlit/
+│   └── config.toml              # Streamlit theme
+├── api/
+│   └── main.py                  # FastAPI — auth, health, /twilio/handoff TwiML
+├── agents/
+│   ├── guest_graph.py           # LangGraph: rewrite → retrieve → generate + handoff
+│   └── ops_graph.py             # LangGraph: plan_sql → execute → explain
+├── app_pages/
+│   ├── home.py                  # Landing — Guest vs Team
+│   ├── guest.py                 # Guest sign-in + chat
+│   └── ops.py                   # Staff sign-in + ops chat + KPIs
+├── rag/
+│   ├── chunking.py              # Section chunks, summary rebuild, HTML clean
+│   ├── embeddings.py            # Sentence Transformer embedding function
+│   └── retriever.py             # Property-scoped Chroma retrieval
+├── services/
+│   ├── auth_service.py          # bcrypt authenticate + upsert
+│   ├── executive_service.py     # Twilio outbound call + TwiML builder
+│   ├── llm.py                   # Gemini chat client
+│   ├── ops_metrics.py           # Staff dashboard KPIs
+│   └── session_service.py       # MySQL session + chat + transfer logging
+├── scripts/
+│   ├── rebuild_chroma.py        # Index final_data.xlsx → Chroma
+│   └── seed_users.py            # Seed guest + staff accounts
+├── data/
+│   ├── final_data.xlsx          # Property source data (for RAG indexing)
+│   ├── units_info.csv           # Reference export
+│   └── bookings.json            # Sample booking data
+├── chroma_db/                   # Persistent vector store (generated)
+├── chunck_creation.ipynb        # Jupyter walkthrough for chunking pipeline
+├── Database.py                  # SQLAlchemy models (4 tables)
+├── streamlit_app.py             # App entry + navigation
+├── .env.example                 # Environment template
+├── requirements.txt
+└── README.md
+```
+
+---
+
+
+
+## ⚙️ Environment Setup
+
+Copy `.env.example` to `.env` in the project root and fill in your values:
+
+```bash
+# Database
+DB_USER=root
+DB_PASSWORD=your-mysql-password
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=Conversations
+
+# Gemini
+GEMINI_API_KEY=your-gemini-api-key
+GEMINI_MODEL=gemini-3.8-flash
+EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+
+# RAG paths
+CHROMA_PATH=chroma_db/UNITS_INFO_CHUNCK
+FINAL_DATA_PATH=data/final_data.xlsx
+
+
+# Twilio voice escalation
+EXECUTIVE_PHONE=+91XXXXXXXXXX
+TWILIO_ACCOUNT_SID=your-twilio-sid
+TWILIO_AUTH_TOKEN=your-twilio-token
+TWILIO_FROM_NUMBER=+1XXXXXXXXXX
+
+```
+
+
+---
+
+
+
+## 💻 Local Installation
+
+
+
+### 1. 📥 Clone the repository
+
+```bash
+git clone https://github.com/Aryakumarjaiswal/vacation-property.git
+cd vacation-property
+```
+
+
+
+### 2. 🐍 Set up Python virtual environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+
+
+### 3. 🗄️ Prepare MySQL
+
+Create database `Conversations` (or match `DB_NAME`). Tables are auto-created on first import of `Database.py`.
+
+### 4. 📊 Build vector index + seed users (first time)
+
+```bash
+python scripts/rebuild_chroma.py
+python scripts/seed_users.py
+```
+
+> Run from the **project root** (`vacation-property/`), not inside `scripts/`.
+
+
+
+### 5. ⚡ Start FastAPI (Terminal 1)
+
+```bash
+uvicorn api.main:app --reload --port 8000
+```
+
+
+
+### 6. 🎈 Start Streamlit (Terminal 2)
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Open **[http://localhost:8501](http://localhost:8501)**
+
+---
+
+
+
+
+
+---
+
+
+
+## 📞 Twilio Voice Handoff (Support Escalation)
+
+When a guest asks to **connect to support** in chat:
+
+1. LangGraph detects escalation intent (phrase match or tool call).
+2. Twilio places an **outbound call** to `EXECUTIVE_PHONE`.
+3. On answer, FastAPI returns **dynamic TwiML** that speaks:
+  - Property ID (digit-by-digit, e.g. *“9 3 0”*)
+  - Guest’s reported issue from chat
+4. Handoff is logged in `chat_transfer_table`.
+
+**Local testing:** Twilio cannot reach `localhost`. Expose port 8000 with [ngrok](https://ngrok.com/) and set:
+
+```bash
+API_BASE_URL=https://your-subdomain.ngrok-free.app
+```
+
+---
+
+
+
+## 🗃️ Database Tables
+
+
+| Table                 | Purpose                     |
+| --------------------- | --------------------------- |
+| `registered_users`    | Guest + staff accounts      |
+| `Session_table_2`     | Chat sessions per visit     |
+| `Chat_table`          | Conversation messages       |
+| `chat_transfer_table` | Support handoff audit trail |
+
+
+---
+
+
+
+## 👤 Adding Users
+
+Edit `GUESTS` / `STAFF` in `scripts/seed_users.py`, then:
+
+```bash
+python scripts/seed_users.py
+```
+
+Passwords are stored as **bcrypt hashes**. For guests, `property_id` must match an indexed Chroma collection.
+
+---
+
+
+
+## 🧪 Guest vs Ops — At a Glance
+
+
+|                    | **Guest Portal**              | **Team Workspace**       |
+| ------------------ | ----------------------------- | ------------------------ |
+| **User**           | Vacation rental guest         | Internal staff           |
+| **Agent**          | RAG over property docs        | SQL on `bookings_info`   |
+| **LangGraph flow** | rewrite → retrieve → generate | plan → execute → explain |
+| **Escalation**     | Twilio voice to executive     | —                        |
+
+
+---
+
