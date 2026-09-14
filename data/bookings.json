@@ -1,0 +1,5721 @@
+{
+  "results": [
+    {
+      "_id": "673fc23ce2fb9c00502ab1ec",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d74f6a7e6e0012200fd3",
+      "confirmationCode": "HM9NBFCJAB",
+      "checkIn": "2024-12-02T22:00:00.000Z",
+      "checkOut": "2024-12-07T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d74f6a7e6e0012200fd3",
+        "title": "Luxurious 4BR home, Pet friendly!"
+      },
+      "guest": {
+        "_id": "673fc23baaa5c8b131ad04b0",
+        "fullName": "Jeff McCool"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673fc23baaa5c8b131ad04b0",
+      "accounting": {
+        "analytics": {
+          "commission": 113.31
+        }
+      }
+    },
+    {
+      "_id": "6748c1bddb0428000fb17053",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d785537fa4000ec0589f",
+      "confirmationCode": "HMSHEZ32XC",
+      "checkIn": "2024-12-02T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d785537fa4000ec0589f",
+        "title": "Cumberland Emerald | Walk to Dining"
+      },
+      "guest": {
+        "_id": "6748c1bd53d614050089b301",
+        "fullName": "John Gabriel"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6748c1bd53d614050089b301",
+      "accounting": {
+        "analytics": {
+          "commission": 108.99
+        }
+      }
+    },
+    {
+      "_id": "66dcc4ff39d934001169fb64",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1216641",
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "guestId": "66c4e8c49cdbcd0c15ec5bcb",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-03T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "guest": {
+        "_id": "66c4e8c49cdbcd0c15ec5bcb",
+        "fullName": "Brandon Freeman"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 161.02
+        }
+      }
+    },
+    {
+      "_id": "67199de859eea30081dbee9a",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HMHZSCNRE4",
+      "checkIn": "2024-12-04T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "guest": {
+        "_id": "67199de7ebd4cdc5aa1a1e93",
+        "fullName": "Brian Jeffries"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67199de7ebd4cdc5aa1a1e93",
+      "accounting": {
+        "analytics": {
+          "commission": 165.04
+        }
+      }
+    },
+    {
+      "_id": "66dcc50330dedf001281a84e",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1217083",
+      "listingId": "66c3d7aad0e89e006af0cd30",
+      "guestId": "66d8f2de7beee5c5d430338e",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "guest": {
+        "_id": "66d8f2de7beee5c5d430338e",
+        "fullName": "Suzie Mesch"
+      },
+      "listing": {
+        "_id": "66c3d7aad0e89e006af0cd30",
+        "title": "Trendy Condo Close to Nissan Stadium"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 79.54
+        }
+      }
+    },
+    {
+      "_id": "66dcc50830dedf001281a8c5",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1211167",
+      "listingId": "66c3d80e1c06fb00130939fe",
+      "guestId": "66d8f21ccbc25c43185617ec",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-09T16:00:00.000Z",
+      "guest": {
+        "_id": "66d8f21ccbc25c43185617ec",
+        "fullName": "Jeannette Devall"
+      },
+      "listing": {
+        "_id": "66c3d80e1c06fb00130939fe",
+        "title": "Private Backyard | Near Bicentennial Park"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 273.9
+        }
+      }
+    },
+    {
+      "_id": "67006cd0fff04a0013748521",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7c54cde680013fd426c",
+      "confirmationCode": "HMQMC9RJDK",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-11T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7c54cde680013fd426c",
+        "title": "Charming Home | Near DT, Pet Friendly!"
+      },
+      "guest": {
+        "_id": "67006cd0151df0a3bfc681ad",
+        "fullName": "Damion Fisher"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67006cd0151df0a3bfc681ad",
+      "accounting": {
+        "analytics": {
+          "commission": 91.86
+        }
+      }
+    },
+    {
+      "_id": "6712f83f46f8421bc9d43c13",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3daccb11c9ac268b70ef1",
+          "fullName": "Jerry Pentecost",
+          "email": "thejerrypentecost@yahoo.com",
+          "phone": "16158386144",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-uE2zswcB",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbcabb1cc48d5bcffe64",
+      "listingId": "66c3d758855568000f31a8e9",
+      "listing": {
+        "_id": "66c3d758855568000f31a8e9",
+        "title": "Secluded 3BR Home in Peaceful Neighborhood"
+      },
+      "guest": {
+        "_id": "66c3dbcabb1cc48d5bcffe64",
+        "fullName": "Jerry Pentecost"
+      },
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "672927e3e16fc7008224d1bd",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-DtlvyiN",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listingId": "66db864b7174560011be5924",
+      "guest": {
+        "_id": "672927e3a14242583970606d",
+        "fullName": "Jamie Preston"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672927e3a14242583970606d",
+      "listing": {
+        "_id": "66db864b7174560011be5924",
+        "title": "West End Getaway for 5 w/Pool!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 72.82
+        }
+      }
+    },
+    {
+      "_id": "67339370511456004be54eaf",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-Jdlfzm2",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-09T16:00:00.000Z",
+      "listingId": "66c3d7f26986ae0013521261",
+      "guest": {
+        "_id": "6733937022020d9538034277",
+        "fullName": "Noelia Adorno"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6733937022020d9538034277",
+      "listing": {
+        "_id": "66c3d7f26986ae0013521261",
+        "title": "Perfect for Groups | Fenced-In Yard, Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 94.07
+        }
+      }
+    },
+    {
+      "_id": "673f800ffaec3c0023e44fd6",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-bU4LPkz",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listingId": "66c3d740855568000f31a542",
+      "guest": {
+        "_id": "673f800faaa5c8b131ac96a7",
+        "fullName": "Ashley Hopkins"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673f800faaa5c8b131ac96a7",
+      "listing": {
+        "_id": "66c3d740855568000f31a542",
+        "title": "Modern Loft Near West End!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 39.31
+        }
+      }
+    },
+    {
+      "_id": "67414e5f47c592001280b9bc",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "671f7f1720146f007c72223f",
+      "confirmationCode": "HMHE4MT3FY",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "671f7f1720146f007c72223f",
+        "title": "Modern 2 BDR w/ River View Balcony, Walk to DT!"
+      },
+      "guest": {
+        "_id": "67414e5eaaa5c8b131af97eb",
+        "fullName": "Ricky Velez"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67414e5eaaa5c8b131af97eb",
+      "accounting": {
+        "analytics": {
+          "commission": 50.93
+        }
+      }
+    },
+    {
+      "_id": "674498df27bec600865fedf0",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d76c23e128001218a433",
+      "confirmationCode": "HM9WRZQY95",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d76c23e128001218a433",
+        "title": "Modern Bungalow in 12 South 4 mi from Downtown!"
+      },
+      "guest": {
+        "_id": "674498df38ae2ec0f74625f3",
+        "fullName": "Kalleah Simpson"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674498df38ae2ec0f74625f3",
+      "accounting": {
+        "analytics": {
+          "commission": 48.42
+        }
+      }
+    },
+    {
+      "_id": "67451dfece400200c3046573",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d726fc6845001295ee29",
+      "confirmationCode": "HMTDWYCJ9W",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-10T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d726fc6845001295ee29",
+        "title": "Chic Condo for 4 Near West End!"
+      },
+      "guest": {
+        "_id": "67451dfe38ae2ec0f747a647",
+        "fullName": "DonnaJoe Meulemans"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67451dfe38ae2ec0f747a647",
+      "accounting": {
+        "analytics": {
+          "commission": 57.61
+        }
+      }
+    },
+    {
+      "_id": "67471149e1105900181f298a",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-kQ9EByG",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-07T16:00:00.000Z",
+      "listingId": "66c3d72d537fa4000ec0507b",
+      "guest": {
+        "_id": "67471149e438338739cd3d50",
+        "fullName": "Gregory Schuda"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67471149e438338739cd3d50",
+      "listing": {
+        "_id": "66c3d72d537fa4000ec0507b",
+        "title": "1 Bedroom Loft Near Centennial Park"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 21.02
+        }
+      }
+    },
+    {
+      "_id": "674718083e7c09009f7895b9",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d79be998c100128f187b",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "guest": {
+        "_id": "6747180853d6140500872232",
+        "fullName": "Courtney Stith"
+      },
+      "guestId": "6747180853d6140500872232",
+      "listing": {
+        "_id": "66c3d79be998c100128f187b",
+        "title": "3 Bedroom Home Perfect for Groups"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 44.68
+        }
+      },
+      "confirmationCode": "HM5CPTH9A4"
+    },
+    {
+      "_id": "67478314e434210011dfb158",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d809cc22430013e1d95a",
+      "confirmationCode": "HMFZFH5HJM",
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d809cc22430013e1d95a",
+        "title": "Stellar Condo | Sleeps 4 | 10 mins from Broadway!"
+      },
+      "guest": {
+        "_id": "67478314e438338739ce24c6",
+        "fullName": "Lynze Belle"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67478314e438338739ce24c6",
+      "accounting": {
+        "analytics": {
+          "commission": 41.57
+        }
+      }
+    },
+    {
+      "_id": "674d755991c7cc7455beb001",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-GgV5XT4q",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674d755980a43731ed3f5b3d",
+      "listingId": "66c3d7c9f9a62900114350b7",
+      "listing": {
+        "_id": "66c3d7c9f9a62900114350b7",
+        "title": "Sleek & Convenient East Nashville Home"
+      },
+      "guest": {
+        "_id": "674d755980a43731ed3f5b3d",
+        "fullName": "Lamontae Thomas"
+      },
+      "checkIn": "2024-12-05T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 56.05
+        }
+      }
+    },
+    {
+      "_id": "66fc241956769f4946877aff",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dab3b11c9ac268b70b83",
+          "fullName": "CS Investments LLC",
+          "email": "nashvillelofts206@gmail.com",
+          "phone": "14066717820",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-tsG84Lin",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66fc24195688e010a57446e0",
+      "listingId": "66c3d749f9a6290011434733",
+      "listing": {
+        "_id": "66c3d749f9a6290011434733",
+        "title": "Centennial Park Condo Near Broadway Sleeps 4"
+      },
+      "guest": {
+        "_id": "66fc24195688e010a57446e0",
+        "fullName": "Doug McCoskery"
+      },
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-09T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "67380539ebd0b5000f144ca5",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d83b05a96800129631c8",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "guest": {
+        "_id": "67380539a72f4adc21314ade",
+        "fullName": "Daniel Godlasky"
+      },
+      "guestId": "67380539a72f4adc21314ade",
+      "listing": {
+        "_id": "66c3d83b05a96800129631c8",
+        "title": "East Nashville Getaway | Great for Couples"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 30.75
+        }
+      },
+      "confirmationCode": "HM4MQRRBTW"
+    },
+    {
+      "_id": "6740be4e47c59200127b5217",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7306a7e6e0012200bd0",
+      "confirmationCode": "HMTNPQPDSR",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7306a7e6e0012200bd0",
+        "title": "1 BDR Loft close to Vanderbilt Hospital"
+      },
+      "guest": {
+        "_id": "6740be4d38ae2ec0f74092b1",
+        "fullName": "Jennifer Manigo"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6740be4d38ae2ec0f74092b1",
+      "accounting": {
+        "analytics": {
+          "commission": 22.32
+        }
+      }
+    },
+    {
+      "_id": "6742084a0809c100122cbf47",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7764e36be001066b4ce",
+      "confirmationCode": "HMCAF2AEP8",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "guest": {
+        "_id": "6742084938ae2ec0f7425aeb",
+        "fullName": "DaZaria Perry"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6742084938ae2ec0f7425aeb",
+      "accounting": {
+        "analytics": {
+          "commission": 48.27
+        }
+      }
+    },
+    {
+      "_id": "674248dd2ddb160013f90f4e",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d8361a35ac0013cc60e9",
+      "confirmationCode": "HMTJR2JJFF",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d8361a35ac0013cc60e9",
+        "title": "Chic Townhome in Trendy East Nash"
+      },
+      "guest": {
+        "_id": "674248dc38ae2ec0f742b63c",
+        "fullName": "Brittany Kneeland"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674248dc38ae2ec0f742b63c",
+      "accounting": {
+        "analytics": {
+          "commission": 25.18
+        }
+      }
+    },
+    {
+      "_id": "67434241cb95c70071d32922",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d847e563b90013e47772",
+      "confirmationCode": "HMXA2ZNJZZ",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "guest": {
+        "_id": "6743424138ae2ec0f743b344",
+        "fullName": "Jozlyn Hawkins"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6743424138ae2ec0f743b344",
+      "accounting": {
+        "analytics": {
+          "commission": 25.43
+        }
+      }
+    },
+    {
+      "_id": "6747e017040bf5003a2379ad",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7824e36be001066b876",
+      "confirmationCode": "HMCNZXQ4EK",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7824e36be001066b876",
+        "title": "Trendy WeHo Home  | Near DT Nashville!"
+      },
+      "guest": {
+        "_id": "6747e017e438338739cec225",
+        "fullName": "Allison Prusnofsky"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6747e017e438338739cec225",
+      "accounting": {
+        "analytics": {
+          "commission": 43.94
+        }
+      }
+    },
+    {
+      "_id": "674a2a0c821ae2000f83b78d",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d74323e1280012189fa4",
+      "confirmationCode": "HMXNXZMWK4",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d74323e1280012189fa4",
+        "title": "Eastside Elegance – A Nashville Adventure Awaits!"
+      },
+      "guest": {
+        "_id": "674a2a0ce438338739d1a308",
+        "fullName": "Sam Argow"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a2a0ce438338739d1a308",
+      "accounting": {
+        "analytics": {
+          "commission": 33.94
+        }
+      }
+    },
+    {
+      "_id": "674a3ce8db0428000fbf5a25",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d77ff9a6290011434b3c",
+      "confirmationCode": "HMPNYNS23Y",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d77ff9a6290011434b3c",
+        "title": "Fun and Vibrant 4 BDR Just 4 Miles from DT"
+      },
+      "guest": {
+        "_id": "674a3ce853d61405008ba93b",
+        "fullName": "Akyah Jones"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a3ce853d61405008ba93b",
+      "accounting": {
+        "analytics": {
+          "commission": 48.89
+        }
+      }
+    },
+    {
+      "_id": "674a4e4b911fa30041241915",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66db86502706bd0010ebd8f3",
+      "confirmationCode": "HMT5RXF45E",
+      "checkIn": "2024-12-06T22:00:00.000Z",
+      "checkOut": "2024-12-08T16:00:00.000Z",
+      "listing": {
+        "_id": "66db86502706bd0010ebd8f3",
+        "title": "Riverfront Charm – A Scenic Downtown Stay for 6!"
+      },
+      "guest": {
+        "_id": "674a4e4b53d61405008bc2f4",
+        "fullName": "Dustin Menzies"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a4e4b53d61405008bc2f4",
+      "accounting": {
+        "analytics": {
+          "commission": 40.48
+        }
+      }
+    },
+    {
+      "_id": "6708750daa6446fc630bff58",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-MvHVvm7x",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6708750c904385066c28acf7",
+      "listingId": "66c3d75b66af560013d73a7d",
+      "listing": {
+        "_id": "66c3d75b66af560013d73a7d",
+        "title": "Chic and Modern West End Living!"
+      },
+      "guest": {
+        "_id": "6708750c904385066c28acf7",
+        "fullName": "Ethan Kibe"
+      },
+      "checkIn": "2024-12-07T22:00:00.000Z",
+      "checkOut": "2024-12-11T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 55.14
+        }
+      }
+    },
+    {
+      "_id": "67198c9e8e21a000139650a8",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-08T22:00:00.000Z",
+      "checkOut": "2024-12-22T16:00:00.000Z",
+      "guest": {
+        "_id": "67198c9debd4cdc5aa19bd99",
+        "fullName": "Maisie Koo"
+      },
+      "guestId": "67198c9debd4cdc5aa19bd99",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 336.43
+        }
+      },
+      "confirmationCode": "HMF9PHFCHA"
+    },
+    {
+      "_id": "673a86e52c60c06218041b78",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dac8bc6ac87bd187bab8",
+          "fullName": "Michelle & Bruce Melick",
+          "email": "shellymelick@gmail.com",
+          "phone": "19253814072",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-agMiwqPE",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbc6bb1cc48d5bcffe3e",
+      "listingId": "66c3d7704e36be001066b120",
+      "listing": {
+        "_id": "66c3d7704e36be001066b120",
+        "title": "2 BDR Riverfront Living in Downtown Nashville!"
+      },
+      "guest": {
+        "_id": "66c3dbc6bb1cc48d5bcffe3e",
+        "fullName": "Michelle & Bruce Melick"
+      },
+      "checkIn": "2024-12-10T22:00:00.000Z",
+      "checkOut": "2024-12-27T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "673e79227a267b0051cb2cdd",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d76c23e128001218a433",
+      "confirmationCode": "HM82JT3PMT",
+      "checkIn": "2024-12-10T22:00:00.000Z",
+      "checkOut": "2024-12-13T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d76c23e128001218a433",
+        "title": "Modern Bungalow in 12 South 4 mi from Downtown!"
+      },
+      "guest": {
+        "_id": "673e7921aaa5c8b131ab3c8f",
+        "fullName": "Whitney Cobb"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673e7921aaa5c8b131ab3c8f",
+      "accounting": {
+        "analytics": {
+          "commission": 52
+        }
+      }
+    },
+    {
+      "_id": "66e059b5e9cc5d002ac26e8c",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d74323e1280012189fa4",
+      "confirmationCode": "HM9XTY4QPW",
+      "checkIn": "2024-12-11T22:00:00.000Z",
+      "checkOut": "2024-12-14T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d74323e1280012189fa4",
+        "title": "Eastside Elegance – A Nashville Adventure Awaits!"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e059b5f7497e03e9f6764d",
+      "guest": {
+        "_id": "66e059b5f7497e03e9f6764d",
+        "fullName": "Marc Beckman"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 61.32
+        }
+      }
+    },
+    {
+      "_id": "66dcc50b30dedf001281a953",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1204756",
+      "listingId": "66c3d7f26986ae0013521261",
+      "guestId": "66d8f1b67beee5c5d4302ea1",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-12T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "guest": {
+        "_id": "66d8f1b67beee5c5d4302ea1",
+        "fullName": "Crystal Dillard"
+      },
+      "listing": {
+        "_id": "66c3d7f26986ae0013521261",
+        "title": "Perfect for Groups | Fenced-In Yard, Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 99.39
+        }
+      }
+    },
+    {
+      "_id": "67015f8956769f49468f57c8",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dac3b11c9ac268b70e07",
+          "fullName": "Steve Brown",
+          "email": "sbrown1758@gmail.com",
+          "phone": "17346648317",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-X7L2hYz5",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbc39cdbcd0c15ea22b3",
+      "listingId": "66c3d7aad0e89e006af0cd30",
+      "listing": {
+        "_id": "66c3d7aad0e89e006af0cd30",
+        "title": "Trendy Condo Close to Nissan Stadium"
+      },
+      "guest": {
+        "_id": "66c3dbc39cdbcd0c15ea22b3",
+        "fullName": "Steve Brown"
+      },
+      "checkIn": "2024-12-12T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "674a4ae9b443050010c2b120",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d8361a35ac0013cc60e9",
+      "confirmationCode": "HMHH3NRXQZ",
+      "checkIn": "2024-12-12T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d8361a35ac0013cc60e9",
+        "title": "Chic Townhome in Trendy East Nash"
+      },
+      "guest": {
+        "_id": "674a4ae953d61405008bbe85",
+        "fullName": "Hannah Miller"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a4ae953d61405008bbe85",
+      "accounting": {
+        "analytics": {
+          "commission": 37.29
+        }
+      }
+    },
+    {
+      "_id": "674ccb4c4e301e00568c4dd7",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HM8T2FWJ84",
+      "checkIn": "2024-12-12T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "guest": {
+        "_id": "674ccb4bdcf08dec81c83de7",
+        "fullName": "April May"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674ccb4bdcf08dec81c83de7",
+      "accounting": {
+        "analytics": {
+          "commission": 84.7
+        }
+      }
+    },
+    {
+      "_id": "671253c646f8421bc9d32463",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da69b11c9ac268b70403",
+          "fullName": "Brent Arvik",
+          "email": "brentarvik@gmail.com",
+          "phone": "13092756812",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-EtMbSSKx",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3db6ebb1cc48d5bcffac2",
+      "listingId": "66c3d847e563b90013e47772",
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "guest": {
+        "_id": "66c3db6ebb1cc48d5bcffac2",
+        "fullName": "Brent Arvik"
+      },
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "672fa6401ca02a009ac20a20",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-757KszQ",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listingId": "66c3d7e523e128001218b15e",
+      "guest": {
+        "_id": "672fa63f9c293b1993fd7140",
+        "fullName": "Darcy MacDermid"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672fa63f9c293b1993fd7140",
+      "listing": {
+        "_id": "66c3d7e523e128001218b15e",
+        "title": "Dual Nashville | 1 mile from DT Nash & Farmers Market"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 105.48
+        }
+      }
+    },
+    {
+      "_id": "673797eef317190030687a4c",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66db86502706bd0010ebd8f3",
+      "confirmationCode": "HM8Y2Z82HD",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-16T16:00:00.000Z",
+      "listing": {
+        "_id": "66db86502706bd0010ebd8f3",
+        "title": "Riverfront Charm – A Scenic Downtown Stay for 6!"
+      },
+      "guest": {
+        "_id": "673797ee3d66b3e1d8271ea2",
+        "fullName": "Adam Tomlin"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673797ee3d66b3e1d8271ea2",
+      "accounting": {
+        "analytics": {
+          "commission": 84.85
+        }
+      }
+    },
+    {
+      "_id": "67439763c804b9006578d3cd",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "671f7f1720146f007c72223f",
+      "listing": {
+        "_id": "671f7f1720146f007c72223f",
+        "title": "Modern 2 BDR w/ River View Balcony, Walk to DT!"
+      },
+      "guest": {
+        "_id": "67439763aaa5c8b131b243aa",
+        "fullName": "Patty Fox"
+      },
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-16T16:00:00.000Z",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67439763aaa5c8b131b243aa",
+      "accounting": {
+        "analytics": {
+          "commission": 56.33
+        }
+      },
+      "confirmationCode": "HA-gVHdoKT"
+    },
+    {
+      "_id": "67452ff3a9a2d100d620847c",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d77ff9a6290011434b3c",
+      "confirmationCode": "HM4HTB5DZH",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d77ff9a6290011434b3c",
+        "title": "Fun and Vibrant 4 BDR Just 4 Miles from DT"
+      },
+      "guest": {
+        "_id": "67452ff238ae2ec0f747cd6d",
+        "fullName": "Angela Haleem"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67452ff238ae2ec0f747cd6d",
+      "accounting": {
+        "analytics": {
+          "commission": 59.16
+        }
+      }
+    },
+    {
+      "_id": "67469c190e8dfd008089baf2",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d809cc22430013e1d95a",
+      "confirmationCode": "HM4KPFKYWD",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d809cc22430013e1d95a",
+        "title": "Stellar Condo | Sleeps 4 | 10 mins from Broadway!"
+      },
+      "guest": {
+        "_id": "67469c1953d614050086a500",
+        "fullName": "Callie Vaughan"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67469c1953d614050086a500",
+      "accounting": {
+        "analytics": {
+          "commission": 27.71
+        }
+      }
+    },
+    {
+      "_id": "67472af8f4f19a0104562b4f",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7824e36be001066b876",
+      "confirmationCode": "HMYDH5NB2E",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7824e36be001066b876",
+        "title": "Trendy WeHo Home  | Near DT Nashville!"
+      },
+      "guest": {
+        "_id": "67472af853d6140500873f25",
+        "fullName": "Hollis Thomas"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67472af853d6140500873f25",
+      "accounting": {
+        "analytics": {
+          "commission": 55.19
+        }
+      }
+    },
+    {
+      "_id": "674745d4db0428000fa354ee",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7306a7e6e0012200bd0",
+      "confirmationCode": "HMBSXS4MKX",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7306a7e6e0012200bd0",
+        "title": "1 BDR Loft close to Vanderbilt Hospital"
+      },
+      "guest": {
+        "_id": "674745d353d614050087753f",
+        "fullName": "Caleb Meadows"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674745d353d614050087753f",
+      "accounting": {
+        "analytics": {
+          "commission": 22.32
+        }
+      }
+    },
+    {
+      "_id": "674b8badd2f86d0037298c64",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d76666af560013d73db2",
+      "confirmationCode": "HMHR3MS2SK",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d76666af560013d73db2",
+        "title": "4-Story 4 BDR Sleeps 11 w/ Rooftop Patio!"
+      },
+      "guest": {
+        "_id": "674b8bade438338739d341cd",
+        "fullName": "Jarius Wallace"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674b8bade438338739d341cd",
+      "accounting": {
+        "analytics": {
+          "commission": 40.33
+        }
+      }
+    },
+    {
+      "_id": "674d16ba7a303d004f21b98f",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d798654520001258d9db",
+      "confirmationCode": "HMMQJQY53J",
+      "checkIn": "2024-12-13T22:00:00.000Z",
+      "checkOut": "2024-12-15T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d798654520001258d9db",
+        "title": "Hello Goodbye | Ultimate Experience!"
+      },
+      "guest": {
+        "_id": "674d16ba80a43731ed3eeb21",
+        "fullName": "Charles Hahn"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674d16ba80a43731ed3eeb21",
+      "accounting": {
+        "analytics": {
+          "commission": 53.09
+        }
+      }
+    },
+    {
+      "_id": "66e059ee0a559c007ff01299",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d80e1c06fb00130939fe",
+      "confirmationCode": "HMBX84ZT3Y",
+      "checkIn": "2024-12-14T22:00:00.000Z",
+      "checkOut": "2024-12-17T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d80e1c06fb00130939fe",
+        "title": "Private Backyard | Near Bicentennial Park"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e059eea0265f9617646363",
+      "guest": {
+        "_id": "66e059eea0265f9617646363",
+        "fullName": "Kelsey Steffensmeier"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 127.4
+        }
+      }
+    },
+    {
+      "_id": "673396b502fd3e010995f97f",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "670d559282031200106a7a4b",
+      "confirmationCode": "HMDJJM8WMF",
+      "checkIn": "2024-12-14T22:00:00.000Z",
+      "checkOut": "2024-12-18T16:00:00.000Z",
+      "listing": {
+        "_id": "670d559282031200106a7a4b",
+        "title": "Gorgeous Apt for 8 w/Rooftop & Gym, Near DT!"
+      },
+      "guest": {
+        "_id": "673396b5eb37e6c9f139c43d",
+        "fullName": "Isaac John Pio"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673396b5eb37e6c9f139c43d",
+      "accounting": {
+        "analytics": {
+          "commission": 79.53
+        }
+      }
+    },
+    {
+      "_id": "673229a3b0d497010b4233af",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dab2bc6ac87bd187b8aa",
+          "fullName": "Sharon  Bunch",
+          "email": "musiccityretreat@yahoo.com",
+          "phone": "16152005193",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-dUxeTwKY",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbb4bb1cc48d5bcffd82",
+      "listingId": "66c3d7fe23e128001218b55f",
+      "listing": {
+        "_id": "66c3d7fe23e128001218b55f",
+        "title": "Quiet Condo | Close to Opryland, Minutes to DT"
+      },
+      "guest": {
+        "_id": "66c3dbb4bb1cc48d5bcffd82",
+        "fullName": "Sharon Elaine Bunch"
+      },
+      "checkIn": "2024-12-15T22:00:00.000Z",
+      "checkOut": "2024-12-22T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "674b94765b8f120039718b15",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-X6T2DRf",
+      "checkIn": "2024-12-19T22:00:00.000Z",
+      "checkOut": "2024-12-27T16:00:00.000Z",
+      "listingId": "66c3d847e563b90013e47772",
+      "guest": {
+        "_id": "674b9475e438338739d34cf5",
+        "fullName": "Jeff Bennett"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674b9475e438338739d34cf5",
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 135.94
+        }
+      }
+    },
+    {
+      "_id": "66dcc51130dedf001281aa48",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1218308",
+      "listingId": "66c3d7e523e128001218b15e",
+      "guestId": "66d9c0fbcbc25c431856bfe4",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-21T22:00:00.000Z",
+      "checkOut": "2024-12-26T16:00:00.000Z",
+      "guest": {
+        "_id": "66d9c0fbcbc25c431856bfe4",
+        "fullName": "Lisa marie guerrero"
+      },
+      "listing": {
+        "_id": "66c3d7e523e128001218b15e",
+        "title": "Dual Nashville | 1 mile from DT Nash & Farmers Market"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 272.34
+        }
+      }
+    },
+    {
+      "_id": "6707bc6bc54eaece727ff11a",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66e877f879601206b52d2b7b",
+          "fullName": "Amy & Nathan Galloway",
+          "email": "aea144@yahoo.com",
+          "phone": "+1 6154763641",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-5QB2pW6a",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6707bc6b71140f2637e5aadb",
+      "listingId": "66e86a5778acd30013f76f2e",
+      "listing": {
+        "_id": "66e86a5778acd30013f76f2e",
+        "title": "Chic Condo for 4 Near West End"
+      },
+      "guest": {
+        "_id": "6707bc6b71140f2637e5aadb",
+        "fullName": "Amy & Nathan Galloway"
+      },
+      "checkIn": "2024-12-21T22:00:00.000Z",
+      "checkOut": "2024-12-30T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "674675c66bc480007ff4900a",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d72a6341480012088155",
+      "confirmationCode": "HMBP5KKM85",
+      "checkIn": "2024-12-21T22:00:00.000Z",
+      "checkOut": "2024-12-31T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d72a6341480012088155",
+        "title": "Trendy Studio for 4 w/ Community Pool!"
+      },
+      "guest": {
+        "_id": "674675c6e438338739cc95e7",
+        "fullName": "Krystofer Yampiel Yournet"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674675c6e438338739cc95e7",
+      "accounting": {
+        "analytics": {
+          "commission": 106.91
+        }
+      }
+    },
+    {
+      "_id": "674b6d125b8f1200397144b9",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-nt8yeGa",
+      "checkIn": "2024-12-21T22:00:00.000Z",
+      "checkOut": "2024-12-26T16:00:00.000Z",
+      "listingId": "66c3d81a1c06fb0013093d55",
+      "guest": {
+        "_id": "674b6d1253d61405008cf7dc",
+        "fullName": "Missy Dewing"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674b6d1253d61405008cf7dc",
+      "listing": {
+        "_id": "66c3d81a1c06fb0013093d55",
+        "title": "Pet Friendly | Convenient Location"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 60.33
+        }
+      }
+    },
+    {
+      "_id": "673399b5a32d310051d3d2ce",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-fEUMYSY",
+      "checkIn": "2024-12-22T22:00:00.000Z",
+      "checkOut": "2024-12-27T16:00:00.000Z",
+      "listingId": "66c3d74323e1280012189fa4",
+      "guest": {
+        "_id": "673399b422020d9538034d3b",
+        "fullName": "Tom Day"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673399b422020d9538034d3b",
+      "listing": {
+        "_id": "66c3d74323e1280012189fa4",
+        "title": "Eastside Elegance – A Nashville Adventure Awaits!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 91.08
+        }
+      }
+    },
+    {
+      "_id": "671c0bdb46f8421bc9df1ff0",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dacbbc6ac87bd187baf2",
+          "fullName": "Leslie Rae Allen",
+          "email": "streamleslie@gmail.com",
+          "phone": "16155873766",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-wZssk8av",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbc99cdbcd0c15ea22ee",
+      "listingId": "66c3d7d1855568000f31b4ab",
+      "listing": {
+        "_id": "66c3d7d1855568000f31b4ab",
+        "title": "Cozy Getaway | Close to DT Nash & Germantown!"
+      },
+      "guest": {
+        "_id": "66c3dbc99cdbcd0c15ea22ee",
+        "fullName": "Leslie Rae Allen"
+      },
+      "checkIn": "2024-12-23T22:00:00.000Z",
+      "checkOut": "2025-05-18T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "672400d0ff21ac00328135a2",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-fan4qU0",
+      "checkIn": "2024-12-23T22:00:00.000Z",
+      "checkOut": "2024-12-27T16:00:00.000Z",
+      "listingId": "66c3d7fe23e128001218b55f",
+      "guest": {
+        "_id": "672400d0a1424258396c541c",
+        "fullName": "Ben Glazer"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672400d0a1424258396c541c",
+      "listing": {
+        "_id": "66c3d7fe23e128001218b55f",
+        "title": "Quiet Condo | Close to Opryland, Minutes to DT"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 69.6
+        }
+      }
+    },
+    {
+      "_id": "6733acbf5fda288800cd9e8e",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-ei3yQRjB",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6733acbfeb37e6c9f13a02d2",
+      "listingId": "66c3d7ed4cde680013fd4618",
+      "listing": {
+        "_id": "66c3d7ed4cde680013fd4618",
+        "title": "Cottage Charm | Private Rooftop Deck"
+      },
+      "guest": {
+        "_id": "6733acbfeb37e6c9f13a02d2",
+        "fullName": "Grace Chang"
+      },
+      "checkIn": "2024-12-23T22:00:00.000Z",
+      "checkOut": "2024-12-28T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 81.27
+        }
+      }
+    },
+    {
+      "_id": "674a26dd24488a0013b70e01",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d785537fa4000ec0589f",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-23T22:00:00.000Z",
+      "checkOut": "2025-01-04T16:00:00.000Z",
+      "guest": {
+        "_id": "674a26dce438338739d19daa",
+        "fullName": "B.A. Suder"
+      },
+      "guestId": "674a26dce438338739d19daa",
+      "listing": {
+        "_id": "66c3d785537fa4000ec0589f",
+        "title": "Cumberland Emerald | Walk to Dining"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 383.36
+        }
+      },
+      "confirmationCode": "HMRMQAN43F"
+    },
+    {
+      "_id": "674cdb46f509930046ce6cb0",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d8434cde680013fd4b8c",
+      "confirmationCode": "HM43XJEXS8",
+      "checkIn": "2024-12-23T22:00:00.000Z",
+      "checkOut": "2024-12-27T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d8434cde680013fd4b8c",
+        "title": "Pet Friendly Townhome with Private Backyard!"
+      },
+      "guest": {
+        "_id": "674cdb4680a43731ed3e8fca",
+        "fullName": "Josefina Obrajero"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674cdb4680a43731ed3e8fca",
+      "accounting": {
+        "analytics": {
+          "commission": 51.12
+        }
+      }
+    },
+    {
+      "_id": "674bc859e434210011072008",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d76666af560013d73db2",
+      "confirmationCode": "HMXEJWSX9K",
+      "checkIn": "2024-12-24T22:00:00.000Z",
+      "checkOut": "2024-12-27T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d76666af560013d73db2",
+        "title": "4-Story 4 BDR Sleeps 11 w/ Rooftop Patio!"
+      },
+      "guest": {
+        "_id": "674bc858e438338739d39557",
+        "fullName": "Kristina Romanowski"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674bc858e438338739d39557",
+      "accounting": {
+        "analytics": {
+          "commission": 86.1
+        }
+      }
+    },
+    {
+      "_id": "67296c8c0940153d017acbdc",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da9cb11c9ac268b70855",
+          "fullName": "Kevin Gates",
+          "email": "kevinmikegates18@gmail.com",
+          "phone": "15613864195",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-nn2EDbBC",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67296c8c19feaf7f5f4f6b7a",
+      "listingId": "66c3d7b9fc6845001295f415",
+      "listing": {
+        "_id": "66c3d7b9fc6845001295f415",
+        "title": "Luxury 3 Bed Close to Downtown!"
+      },
+      "guest": {
+        "_id": "67296c8c19feaf7f5f4f6b7a",
+        "fullName": "Paula  Ryan "
+      },
+      "checkIn": "2024-12-25T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "672ab04c46a42d00a1389ef6",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-irZ5C1C",
+      "checkIn": "2024-12-25T22:00:00.000Z",
+      "checkOut": "2024-12-29T16:00:00.000Z",
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "guest": {
+        "_id": "672ab04ca14242583971cfa3",
+        "fullName": "Bryan Williams"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672ab04ca14242583971cfa3",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 138.31
+        }
+      }
+    },
+    {
+      "_id": "67321bdca4dcf1007abaee67",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-2U1yMYD",
+      "checkIn": "2024-12-25T22:00:00.000Z",
+      "checkOut": "2024-12-30T16:00:00.000Z",
+      "listingId": "66c3d74f6a7e6e0012200fd3",
+      "guest": {
+        "_id": "67321bdbeb37e6c9f136ee5b",
+        "fullName": "DAVID ALCHIER"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67321bdbeb37e6c9f136ee5b",
+      "listing": {
+        "_id": "66c3d74f6a7e6e0012200fd3",
+        "title": "Luxurious 4BR home, Pet friendly!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 192.89
+        }
+      }
+    },
+    {
+      "_id": "673a673231a622008f415493",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d75b66af560013d73a7d",
+      "confirmationCode": "HMXTJBJNWD",
+      "checkIn": "2024-12-25T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d75b66af560013d73a7d",
+        "title": "Chic and Modern West End Living!"
+      },
+      "guest": {
+        "_id": "66f745b652dcc79780c0c131",
+        "fullName": "Simone Green"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66f745b652dcc79780c0c131",
+      "accounting": {
+        "analytics": {
+          "commission": 114.05
+        }
+      }
+    },
+    {
+      "_id": "66dcc51430dedf001281aad9",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1210861",
+      "listingId": "66c3d7f26986ae0013521261",
+      "guestId": "66d8f211cbc25c431856175a",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-26T22:00:00.000Z",
+      "checkOut": "2024-12-30T16:00:00.000Z",
+      "guest": {
+        "_id": "66d8f211cbc25c431856175a",
+        "fullName": "Cindy Tegeler"
+      },
+      "listing": {
+        "_id": "66c3d7f26986ae0013521261",
+        "title": "Perfect for Groups | Fenced-In Yard, Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 196.05
+        }
+      }
+    },
+    {
+      "_id": "66e059a40bd343002b9bcea4",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7824e36be001066b876",
+      "confirmationCode": "HMPAZZBA3P",
+      "checkIn": "2024-12-26T22:00:00.000Z",
+      "checkOut": "2024-12-30T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7824e36be001066b876",
+        "title": "Trendy WeHo Home  | Near DT Nashville!"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e059a4a0265f9617645365",
+      "guest": {
+        "_id": "66e059a4a0265f9617645365",
+        "fullName": "Michelle Monson"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 227.95
+        }
+      }
+    },
+    {
+      "_id": "6712f8bd878d3900d96f7f04",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-BdXcFWd",
+      "checkIn": "2024-12-26T22:00:00.000Z",
+      "checkOut": "2024-12-31T16:00:00.000Z",
+      "listingId": "66c3d830f0b10c00129fc4f6",
+      "guest": {
+        "_id": "6712f8bdb2bc99c301bbda45",
+        "fullName": "Lorena Levesque Gregor"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6712f8bdb2bc99c301bbda45",
+      "listing": {
+        "_id": "66c3d830f0b10c00129fc4f6",
+        "title": "Pet Friendly | Near DT Nash & Music Row!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 123.65
+        }
+      }
+    },
+    {
+      "_id": "67238fc48ad2d30029230645",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-sPVuqVZ",
+      "checkIn": "2024-12-26T22:00:00.000Z",
+      "checkOut": "2024-12-30T16:00:00.000Z",
+      "listingId": "66c3d7636341480012088569",
+      "guest": {
+        "_id": "67238fc3a5174f06dff55d72",
+        "fullName": "Gary Mote"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67238fc3a5174f06dff55d72",
+      "listing": {
+        "_id": "66c3d7636341480012088569",
+        "title": "Blue Bird | Access to Cumberland River!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 178.74
+        }
+      }
+    },
+    {
+      "_id": "673e171735b1054ead842636",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3daa3b11c9ac268b70977",
+          "fullName": "Laura Pattawi",
+          "email": "laurapattawi@gmail.com",
+          "phone": "16154804916",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-WViwWa7r",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dba59cdbcd0c15ea21e3",
+      "listingId": "66c3d7764e36be001066b4ce",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "guest": {
+        "_id": "66c3dba59cdbcd0c15ea21e3",
+        "fullName": "Laura Pattawi"
+      },
+      "checkIn": "2024-12-26T22:00:00.000Z",
+      "checkOut": "2024-12-31T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "674667531732ed00894639c6",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-noY0rPw",
+      "checkIn": "2024-12-26T22:00:00.000Z",
+      "checkOut": "2024-12-29T16:00:00.000Z",
+      "listingId": "66c3d81a1c06fb0013093d55",
+      "guest": {
+        "_id": "67466753e438338739cc8309",
+        "fullName": "Ellen True"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67466753e438338739cc8309",
+      "listing": {
+        "_id": "66c3d81a1c06fb0013093d55",
+        "title": "Pet Friendly | Convenient Location"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 41.26
+        }
+      }
+    },
+    {
+      "_id": "66db5984db0724769ce27991",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da85b11c9ac268b7060f",
+          "fullName": null,
+          "email": null,
+          "phone": null,
+          "locale": null
+        }
+      },
+      "confirmationCode": "1154479",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3db86bb1cc48d5bcffb8f",
+      "listingId": "66c3d7fa855568000f31b85a",
+      "listing": {
+        "_id": "66c3d7fa855568000f31b85a",
+        "title": "Riverfront Condo Minutes from Broadway"
+      },
+      "guest": {
+        "_id": "66c3db86bb1cc48d5bcffb8f",
+        "fullName": "First CBH Family LP"
+      },
+      "checkIn": "2024-12-27T22:00:00.000Z",
+      "checkOut": "2025-01-03T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "67397ec39359090032f3b67e",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d749f9a6290011434733",
+      "confirmationCode": "HMNDRZZNSN",
+      "checkIn": "2024-12-27T22:00:00.000Z",
+      "checkOut": "2024-12-30T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d749f9a6290011434733",
+        "title": "Centennial Park Condo Near Broadway Sleeps 4"
+      },
+      "guest": {
+        "_id": "67397ec3a72f4adc21333f0c",
+        "fullName": "Kalie Fisher"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67397ec3a72f4adc21333f0c",
+      "accounting": {
+        "analytics": {
+          "commission": 52.42
+        }
+      }
+    },
+    {
+      "_id": "66dcc51730dedf001281ab94",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1209868",
+      "listingId": "66c3d80e1c06fb00130939fe",
+      "guestId": "66d8f1fa7beee5c5d430304f",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d80e1c06fb00130939fe",
+        "title": "Private Backyard | Near Bicentennial Park"
+      },
+      "guest": {
+        "_id": "66d8f1fa7beee5c5d430304f",
+        "fullName": "Wendi Carroll"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 271.44
+        }
+      }
+    },
+    {
+      "_id": "66f2034a771171000f7cac09",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d83b05a96800129631c8",
+      "confirmationCode": "HMYTH53YAC",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d83b05a96800129631c8",
+        "title": "East Nashville Getaway | Great for Couples"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66f2034a90d420bfa3961aa4",
+      "guest": {
+        "_id": "66f2034a90d420bfa3961aa4",
+        "fullName": "Kathleen McCarthy"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 113.14
+        }
+      }
+    },
+    {
+      "_id": "670ad2412c9b410041854976",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HM8WSMJXQR",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "guest": {
+        "_id": "670ad24124797cc6420c0973",
+        "fullName": "Isabella Mayer"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "670ad24124797cc6420c0973",
+      "accounting": {
+        "analytics": {
+          "commission": 177.65
+        }
+      }
+    },
+    {
+      "_id": "670dbe4027388700b6e7f0c0",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7aad0e89e006af0cd30",
+      "confirmationCode": "HMNAKSKBCS",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7aad0e89e006af0cd30",
+        "title": "Trendy Condo Close to Nissan Stadium"
+      },
+      "guest": {
+        "_id": "670dbe3f642b57f5cefbcd20",
+        "fullName": "Sonia Bompart"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "670dbe3f642b57f5cefbcd20",
+      "accounting": {
+        "analytics": {
+          "commission": 102.76
+        }
+      }
+    },
+    {
+      "_id": "670fe25c878d3900d96bfa89",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-mAk4spQ",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listingId": "66c3d8434cde680013fd4b8c",
+      "guest": {
+        "_id": "670fe25cb2bc99c301af6df9",
+        "fullName": "Tony Zieser"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "670fe25cb2bc99c301af6df9",
+      "listing": {
+        "_id": "66c3d8434cde680013fd4b8c",
+        "title": "Pet Friendly Townhome with Private Backyard!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 91.21
+        }
+      }
+    },
+    {
+      "_id": "672c0ef22df088007aa43da7",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d825cc22430013e1e6e8",
+      "confirmationCode": "HM4H48JYQ4",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d825cc22430013e1e6e8",
+        "title": "Couple Townhome Getaway near East Nashville"
+      },
+      "guest": {
+        "_id": "672c0ef29c293b1993f8b895",
+        "fullName": "Stacey Kohler"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672c0ef29c293b1993f8b895",
+      "accounting": {
+        "analytics": {
+          "commission": 92.77
+        }
+      }
+    },
+    {
+      "_id": "672fb7ea1ca02a009ac22651",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-RHiHDII",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listingId": "66c3d720654520001258d15e",
+      "guest": {
+        "_id": "672fb7ea40ee88f5d6a35912",
+        "fullName": "Michelle Seay"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672fb7ea40ee88f5d6a35912",
+      "listing": {
+        "_id": "66c3d720654520001258d15e",
+        "title": "Boho Townhome for 12 Close to DT"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 146.82
+        }
+      }
+    },
+    {
+      "_id": "673229dfb0d497010b42340f",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dab2bc6ac87bd187b8aa",
+          "fullName": "Sharon  Bunch",
+          "email": "musiccityretreat@yahoo.com",
+          "phone": "16152005193",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-w6ausVcs",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbb4bb1cc48d5bcffd82",
+      "listingId": "66c3d7fe23e128001218b55f",
+      "listing": {
+        "_id": "66c3d7fe23e128001218b55f",
+        "title": "Quiet Condo | Close to Opryland, Minutes to DT"
+      },
+      "guest": {
+        "_id": "66c3dbb4bb1cc48d5bcffd82",
+        "fullName": "Sharon Elaine Bunch"
+      },
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-03-15T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "67323e38c031be007e9cdc30",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66f44e79e0c40700142f95fc",
+      "confirmationCode": "HMY9ENSQ8M",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66f44e79e0c40700142f95fc",
+        "title": "Cowgirl Cottage – Condo for 10!"
+      },
+      "guest": {
+        "_id": "67323e3822020d953800c435",
+        "fullName": "Lynn Redaelli"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67323e3822020d953800c435",
+      "accounting": {
+        "analytics": {
+          "commission": 122.69
+        }
+      }
+    },
+    {
+      "_id": "673283e3458d580095730a16",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7704e36be001066b120",
+      "confirmationCode": "HMJ5QMFSQM",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7704e36be001066b120",
+        "title": "2 BDR Riverfront Living in Downtown Nashville!"
+      },
+      "guest": {
+        "_id": "673283e2eb37e6c9f137e6ac",
+        "fullName": "Stacy DeNatalie"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673283e2eb37e6c9f137e6ac",
+      "accounting": {
+        "analytics": {
+          "commission": 195.71
+        }
+      }
+    },
+    {
+      "_id": "6733842fa32d310051d3af72",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-QDQ4Tmc",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listingId": "66c3d7234e36be001066a8ec",
+      "guest": {
+        "_id": "6733842eeb37e6c9f139991c",
+        "fullName": "Karen Samuelson"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6733842eeb37e6c9f139991c",
+      "listing": {
+        "_id": "66c3d7234e36be001066a8ec",
+        "title": "Chic Townhome for 10 w/Rooftop"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 172.51
+        }
+      }
+    },
+    {
+      "_id": "6736ae4c3ee1830031007011",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7bd64ea230013a3b5a1",
+      "confirmationCode": "HMJDKHX38E",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7bd64ea230013a3b5a1",
+        "title": "Quiet Condo l Prime Locale w/in mins to DT"
+      },
+      "guest": {
+        "_id": "6736ae4c3d66b3e1d825d50f",
+        "fullName": "Erik Castaneda"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6736ae4c3d66b3e1d825d50f",
+      "accounting": {
+        "analytics": {
+          "commission": 96.38
+        }
+      }
+    },
+    {
+      "_id": "67411d1953361b0048ea2f6d",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "671f7f1720146f007c72223f",
+      "confirmationCode": "HM4Q2DJYQC",
+      "checkIn": "2024-12-28T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "671f7f1720146f007c72223f",
+        "title": "Modern 2 BDR w/ River View Balcony, Walk to DT!"
+      },
+      "guest": {
+        "_id": "67411d18aaa5c8b131af59c0",
+        "fullName": "Noah Grant"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67411d18aaa5c8b131af59c0",
+      "accounting": {
+        "analytics": {
+          "commission": 128.85
+        }
+      }
+    },
+    {
+      "_id": "671ee963e3e3cc00ac40a07f",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7ed4cde680013fd4618",
+      "confirmationCode": "HMZAQQTNN9",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7ed4cde680013fd4618",
+        "title": "Cottage Charm | Private Rooftop Deck"
+      },
+      "guest": {
+        "_id": "671ee963ebd4cdc5aa2edbfb",
+        "fullName": "Andrew Reed"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "671ee963ebd4cdc5aa2edbfb",
+      "accounting": {
+        "analytics": {
+          "commission": 66.64
+        }
+      }
+    },
+    {
+      "_id": "671f27e4224c1e00772b9258",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-djE5gWp",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listingId": "66c3d83ff9a6290011435a32",
+      "guest": {
+        "_id": "671f27e4fe9dcfff75078784",
+        "fullName": "Zach Ryan"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "671f27e4fe9dcfff75078784",
+      "listing": {
+        "_id": "66c3d83ff9a6290011435a32",
+        "title": "Riverfront Condo Centrally located Near DT"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 80.18
+        }
+      }
+    },
+    {
+      "_id": "67216a74fc8c81016005ae52",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7c54cde680013fd426c",
+      "confirmationCode": "HMEKAFWYHD",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7c54cde680013fd426c",
+        "title": "Charming Home | Near DT, Pet Friendly!"
+      },
+      "guest": {
+        "_id": "67216a74a1424258396a2ae1",
+        "fullName": "Nancy Heitman"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67216a74a1424258396a2ae1",
+      "accounting": {
+        "analytics": {
+          "commission": 60.41
+        }
+      }
+    },
+    {
+      "_id": "67266f1eff21ac003283678a",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-CIybldE",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listingId": "66c3d7b1d1680e000ef19b96",
+      "guest": {
+        "_id": "67266f1ea1424258396e1a55",
+        "fullName": "Michael Papp"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67266f1ea1424258396e1a55",
+      "listing": {
+        "_id": "66c3d7b1d1680e000ef19b96",
+        "title": "Eclectic Pet Friendly Home in East Nashville"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 83.43
+        }
+      }
+    },
+    {
+      "_id": "673176dfbad0c5005bb52b30",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d847e563b90013e47772",
+      "confirmationCode": "HMS8CSX8FW",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "guest": {
+        "_id": "673176de9c293b19930006ef",
+        "fullName": "Sean Sharma"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673176de9c293b19930006ef",
+      "accounting": {
+        "analytics": {
+          "commission": 52.81
+        }
+      }
+    },
+    {
+      "_id": "6732b2bdc031be007ea0d50e",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d809cc22430013e1d95a",
+      "confirmationCode": "HMWT33PRX5",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d809cc22430013e1d95a",
+        "title": "Stellar Condo | Sleeps 4 | 10 mins from Broadway!"
+      },
+      "guest": {
+        "_id": "6732b2bd22020d953801adf9",
+        "fullName": "Stephanie Casey"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6732b2bd22020d953801adf9",
+      "accounting": {
+        "analytics": {
+          "commission": 55.43
+        }
+      }
+    },
+    {
+      "_id": "6732c8e1546985008f21b4d1",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d736537fa4000ec05375",
+      "confirmationCode": "HMKT4EXRK3",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-03T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d736537fa4000ec05375",
+        "title": "1 BDR Loft Centrally Located in West End"
+      },
+      "guest": {
+        "_id": "6732c8e0eb37e6c9f1385457",
+        "fullName": "Alexandra Souillard"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6732c8e0eb37e6c9f1385457",
+      "accounting": {
+        "analytics": {
+          "commission": 76.55
+        }
+      }
+    },
+    {
+      "_id": "6732ea894f38d4004e82b0ee",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-1sPBXUW",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listingId": "66c3d7d523e128001218ad16",
+      "guest": {
+        "_id": "6732ea88eb37e6c9f138a55c",
+        "fullName": "Nick Wagster"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6732ea88eb37e6c9f138a55c",
+      "listing": {
+        "_id": "66c3d7d523e128001218ad16",
+        "title": "Riverfront Condo in DT"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 59.94
+        }
+      }
+    },
+    {
+      "_id": "673607b10128da002fda2d27",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d74323e1280012189fa4",
+      "confirmationCode": "HMZ9AJWPJ5",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d74323e1280012189fa4",
+        "title": "Eastside Elegance – A Nashville Adventure Awaits!"
+      },
+      "guest": {
+        "_id": "673607b13d66b3e1d824c03f",
+        "fullName": "Racheal Edwards"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673607b13d66b3e1d824c03f",
+      "accounting": {
+        "analytics": {
+          "commission": 51.38
+        }
+      }
+    },
+    {
+      "_id": "67375b67e86b0500333f6ce8",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7a74cde680013fd3e2b",
+      "confirmationCode": "HMBWFJCK2X",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7a74cde680013fd3e2b",
+        "title": "Charming Historic Loft Near Downtown"
+      },
+      "guest": {
+        "_id": "67375b663d66b3e1d826b8b5",
+        "fullName": "Alyssa Davis"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67375b663d66b3e1d826b8b5",
+      "accounting": {
+        "analytics": {
+          "commission": 58.82
+        }
+      }
+    },
+    {
+      "_id": "674745c1b30b3b00113a6b8d",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "67320c06e3ca3700572b5eb2",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "guest": {
+        "_id": "674745c1e438338739cd9601",
+        "fullName": "Hayden Flechner"
+      },
+      "guestId": "674745c1e438338739cd9601",
+      "listing": {
+        "_id": "67320c06e3ca3700572b5eb2",
+        "title": "Nashville South Gulch – Sleeps 8"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 46.09
+        }
+      },
+      "confirmationCode": "HMS5DMQCNN"
+    },
+    {
+      "_id": "6747d65473d9b20011242e47",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "confirmationCode": "HM3QR4BQNA",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-04T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "guest": {
+        "_id": "6747d65453d614050088968b",
+        "fullName": "Kelly Moore"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6747d65453d614050088968b",
+      "accounting": {
+        "analytics": {
+          "commission": 171.53
+        }
+      }
+    },
+    {
+      "_id": "6749343d4920c7003768c61c",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d792350d4d0012c87b0c",
+      "confirmationCode": "HMS8HA5CEN",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d792350d4d0012c87b0c",
+        "title": "Cumberland River Condo Near DT!"
+      },
+      "guest": {
+        "_id": "6749343de438338739d05d73",
+        "fullName": "Luke Dawalt"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6749343de438338739d05d73",
+      "accounting": {
+        "analytics": {
+          "commission": 56.52
+        }
+      }
+    },
+    {
+      "_id": "674b6444e08ba50041fc7327",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-uxbn5Xg",
+      "checkIn": "2024-12-29T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listingId": "66c3d78b6a7e6e00122016bb",
+      "guest": {
+        "_id": "674b6443e438338739d306ac",
+        "fullName": "Janet Faxon"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674b6443e438338739d306ac",
+      "listing": {
+        "_id": "66c3d78b6a7e6e00122016bb",
+        "title": "Centrally Located Cozy Pet Friendly Cottage"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 89.44
+        }
+      }
+    },
+    {
+      "_id": "672a9e7182291d0067edaa09",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66db86502706bd0010ebd8f3",
+      "confirmationCode": "HMWC4JT9KN",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-03T16:00:00.000Z",
+      "listing": {
+        "_id": "66db86502706bd0010ebd8f3",
+        "title": "Riverfront Charm – A Scenic Downtown Stay for 6!"
+      },
+      "guest": {
+        "_id": "672a9e70a5174f06dffb5128",
+        "fullName": "Kellie Dick"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672a9e70a5174f06dffb5128",
+      "accounting": {
+        "analytics": {
+          "commission": 147.75
+        }
+      }
+    },
+    {
+      "_id": "67300523fa6003009837dc86",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7f26986ae0013521261",
+      "confirmationCode": "HM3FAYAKY5",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7f26986ae0013521261",
+        "title": "Perfect for Groups | Fenced-In Yard, Pet Friendly"
+      },
+      "guest": {
+        "_id": "673005239c293b1993fdf778",
+        "fullName": "Daryl Bess"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673005239c293b1993fdf778",
+      "accounting": {
+        "analytics": {
+          "commission": 91.34
+        }
+      }
+    },
+    {
+      "_id": "67325e6b458d58009571b41d",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7dd05a96800129627ca",
+      "confirmationCode": "HM48DJRFWW",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-03T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7dd05a96800129627ca",
+        "title": "3 Story Townhome in East Nashville"
+      },
+      "guest": {
+        "_id": "67325e6b22020d9538011e76",
+        "fullName": "Andrea Gouvinhas"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67325e6b22020d9538011e76",
+      "accounting": {
+        "analytics": {
+          "commission": 112.27
+        }
+      }
+    },
+    {
+      "_id": "673400ddc6eb3d011e997928",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66e8671a062e5c00144965ae",
+      "confirmationCode": "HM54YTF42Z",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66e8671a062e5c00144965ae",
+        "title": "Chic Highrise for 6 w/ Shared Pool"
+      },
+      "guest": {
+        "_id": "673400dd22020d9538041db2",
+        "fullName": "Taylor Ho"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673400dd22020d9538041db2",
+      "accounting": {
+        "analytics": {
+          "commission": 49.98
+        }
+      }
+    },
+    {
+      "_id": "673b6609bfa01100b78cd004",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66db86477174560011be5621",
+      "confirmationCode": "HMTZFAEZJ8",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-04T16:00:00.000Z",
+      "listing": {
+        "_id": "66db86477174560011be5621",
+        "title": "Dolly’s Disco – Stylish 2 BDR"
+      },
+      "guest": {
+        "_id": "673b6608aaa5c8b131a5c561",
+        "fullName": "Elizabeth Griffin"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673b6608aaa5c8b131a5c561",
+      "accounting": {
+        "analytics": {
+          "commission": 126.89
+        }
+      }
+    },
+    {
+      "_id": "673b8dcecdd28d00bca0391f",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7a16a7e6e0012201e7a",
+      "confirmationCode": "HMQ4EJ245D",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-04T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7a16a7e6e0012201e7a",
+        "title": "Historic Stay Near Downtown"
+      },
+      "guest": {
+        "_id": "673b8dcd38ae2ec0f7381c7e",
+        "fullName": "Garry Kent"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673b8dcd38ae2ec0f7381c7e",
+      "accounting": {
+        "analytics": {
+          "commission": 95.15
+        }
+      }
+    },
+    {
+      "_id": "673c027daa1d0e00b9887112",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7e523e128001218b15e",
+      "confirmationCode": "HM3RJFN4WF",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e523e128001218b15e",
+        "title": "Dual Nashville | 1 mile from DT Nash & Farmers Market"
+      },
+      "guest": {
+        "_id": "673c027daaa5c8b131a6f8de",
+        "fullName": "Grace Mercer"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673c027daaa5c8b131a6f8de",
+      "accounting": {
+        "analytics": {
+          "commission": 142.07
+        }
+      }
+    },
+    {
+      "_id": "673d3eac354eff008df2a91b",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d749f9a6290011434733",
+      "confirmationCode": "HMMX5AT9RQ",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-02T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d749f9a6290011434733",
+        "title": "Centennial Park Condo Near Broadway Sleeps 4"
+      },
+      "guest": {
+        "_id": "673d3eabaaa5c8b131a94a2f",
+        "fullName": "Taylor Deming"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673d3eabaaa5c8b131a94a2f",
+      "accounting": {
+        "analytics": {
+          "commission": 39.57
+        }
+      }
+    },
+    {
+      "_id": "674d4b8038f45800105ddc16",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7824e36be001066b876",
+      "confirmationCode": "HM8QRFPJ4X",
+      "checkIn": "2024-12-30T22:00:00.000Z",
+      "checkOut": "2025-01-01T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7824e36be001066b876",
+        "title": "Trendy WeHo Home  | Near DT Nashville!"
+      },
+      "guest": {
+        "_id": "674d4b8080a43731ed3f38ee",
+        "fullName": "Yeshwanth Reddy Kariveda"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674d4b8080a43731ed3f38ee",
+      "accounting": {
+        "analytics": {
+          "commission": 64.18
+        }
+      }
+    },
+    {
+      "_id": "672cec93df6d199860fb9f8b",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-aWpwByRV",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672cebc513f893f56dcb31c1",
+      "listingId": "66c3d77964ea230013a3adbc",
+      "listing": {
+        "_id": "66c3d77964ea230013a3adbc",
+        "title": "Chic West End Loft Right Next Door to Vanderbilt!"
+      },
+      "guest": {
+        "_id": "672cebc513f893f56dcb31c1",
+        "fullName": "Braedon Kilgore"
+      },
+      "checkIn": "2024-12-31T22:00:00.000Z",
+      "checkOut": "2025-01-31T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 259.49
+        }
+      }
+    },
+    {
+      "_id": "66db5988db1dd2edfec68cfe",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da7dbc6ac87bd187b332",
+          "fullName": null,
+          "email": null,
+          "phone": null,
+          "locale": null
+        }
+      },
+      "confirmationCode": "1156275",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3db7d9cdbcd0c15ea2177",
+      "listingId": "66c3d798654520001258d9db",
+      "listing": {
+        "_id": "66c3d798654520001258d9db",
+        "title": "Hello Goodbye | Ultimate Experience!"
+      },
+      "guest": {
+        "_id": "66c3db7d9cdbcd0c15ea2177",
+        "fullName": "Frank Hurd"
+      },
+      "checkIn": "2025-01-01T22:00:00.000Z",
+      "checkOut": "2025-06-01T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "66db59a29374c35a64ab68db",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dac1b11c9ac268b70d55",
+          "fullName": null,
+          "email": null,
+          "phone": null,
+          "locale": null
+        }
+      },
+      "confirmationCode": "1209283",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbc19cdbcd0c15ea2287",
+      "listingId": "66c3d77c7db5760013ace5bb",
+      "listing": {
+        "_id": "66c3d77c7db5760013ace5bb",
+        "title": "3 BDR Townhome Near The Nations & Midtown!"
+      },
+      "guest": {
+        "_id": "66c3dbc19cdbcd0c15ea2287",
+        "fullName": "On the Road Again Ventures, LLC - Ryan & Lindsay Weeks"
+      },
+      "checkIn": "2025-01-01T22:00:00.000Z",
+      "checkOut": "2025-12-31T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "6716f7cc46f8421bc9d84110",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66db8707858f0c4aec773fa6",
+          "fullName": "Emily Redding",
+          "email": "emilyrn23@gmail.com",
+          "phone": "17177991097",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-NXjcUczL",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6716f7cc1901e6191f24ce1d",
+      "listingId": "66db86502706bd0010ebd8f3",
+      "listing": {
+        "_id": "66db86502706bd0010ebd8f3",
+        "title": "Riverfront Charm – A Scenic Downtown Stay for 6!"
+      },
+      "guest": {
+        "_id": "6716f7cc1901e6191f24ce1d",
+        "fullName": "Sean Wolpert"
+      },
+      "checkIn": "2025-01-03T22:00:00.000Z",
+      "checkOut": "2025-01-07T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "672519ec847494119e439334",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3daa9b11c9ac268b70ad3",
+          "fullName": "Max & Debbie Norton",
+          "email": "maxnorton18@gmail.com",
+          "phone": "17314444541",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-jg7ftqNR",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbad9cdbcd0c15ea220b",
+      "listingId": "66c3d77ff9a6290011434b3c",
+      "listing": {
+        "_id": "66c3d77ff9a6290011434b3c",
+        "title": "Fun and Vibrant 4 BDR Just 4 Miles from DT"
+      },
+      "guest": {
+        "_id": "66c3dbad9cdbcd0c15ea220b",
+        "fullName": "Max & Debbie Norton"
+      },
+      "checkIn": "2025-01-12T22:00:00.000Z",
+      "checkOut": "2025-01-17T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "674a6bb95b8f120039703573",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-3NbyNuz",
+      "checkIn": "2025-01-16T22:00:00.000Z",
+      "checkOut": "2025-01-20T16:00:00.000Z",
+      "listingId": "67320c06e3ca3700572b5eb2",
+      "guest": {
+        "_id": "674a6bb9e438338739d205cc",
+        "fullName": "Candice D'Arcangeli"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a6bb9e438338739d205cc",
+      "listing": {
+        "_id": "67320c06e3ca3700572b5eb2",
+        "title": "Nashville South Gulch – Sleeps 8"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 46.99
+        }
+      }
+    },
+    {
+      "_id": "6737eb5bd77af50032661bbb",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HM2PWEZFAK",
+      "checkIn": "2025-01-17T22:00:00.000Z",
+      "checkOut": "2025-01-20T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "guest": {
+        "_id": "6737eb5b3d66b3e1d827a50f",
+        "fullName": "Angelica McShan"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6737eb5b3d66b3e1d827a50f",
+      "accounting": {
+        "analytics": {
+          "commission": 130.78
+        }
+      }
+    },
+    {
+      "_id": "66e059ed75a6bb006abafa21",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d80e1c06fb00130939fe",
+      "confirmationCode": "HMP3QYBBS3",
+      "checkIn": "2025-01-23T22:00:00.000Z",
+      "checkOut": "2025-01-26T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d80e1c06fb00130939fe",
+        "title": "Private Backyard | Near Bicentennial Park"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e059eca0265f9617646316",
+      "guest": {
+        "_id": "66e059eca0265f9617646316",
+        "fullName": "Kara Jones Carr"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 216.76
+        }
+      }
+    },
+    {
+      "_id": "6713d5541869fd00bbfc202d",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-hWX2jlo",
+      "checkIn": "2025-01-23T22:00:00.000Z",
+      "checkOut": "2025-01-26T16:00:00.000Z",
+      "listingId": "66c3d7e523e128001218b15e",
+      "guest": {
+        "_id": "6713d554b2bc99c301be7e8b",
+        "fullName": "Joseph Van Vliet"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6713d554b2bc99c301be7e8b",
+      "listing": {
+        "_id": "66c3d7e523e128001218b15e",
+        "title": "Dual Nashville | 1 mile from DT Nash & Farmers Market"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 192.41
+        }
+      }
+    },
+    {
+      "_id": "672fe8d6c8308900928ee573",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-1eUDCzq",
+      "checkIn": "2025-01-25T22:00:00.000Z",
+      "checkOut": "2025-01-28T16:00:00.000Z",
+      "listingId": "66db86502706bd0010ebd8f3",
+      "guest": {
+        "_id": "672fe8d69c293b1993fdcf1a",
+        "fullName": "Marcia Rentz"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672fe8d69c293b1993fdcf1a",
+      "listing": {
+        "_id": "66db86502706bd0010ebd8f3",
+        "title": "Riverfront Charm – A Scenic Downtown Stay for 6!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 80.49
+        }
+      }
+    },
+    {
+      "_id": "672ced320940153d017f6f56",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-xUwpj6MN",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672cebc513f893f56dcb31c1",
+      "listingId": "66c3d77964ea230013a3adbc",
+      "listing": {
+        "_id": "66c3d77964ea230013a3adbc",
+        "title": "Chic West End Loft Right Next Door to Vanderbilt!"
+      },
+      "guest": {
+        "_id": "672cebc513f893f56dcb31c1",
+        "fullName": "Braedon Kilgore"
+      },
+      "checkIn": "2025-01-31T22:00:00.000Z",
+      "checkOut": "2025-02-28T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 259.49
+        }
+      }
+    },
+    {
+      "_id": "672aa647c9024d00b27a151a",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-WiGGOrv",
+      "checkIn": "2025-02-09T22:00:00.000Z",
+      "checkOut": "2025-03-08T16:00:00.000Z",
+      "listingId": "66c3d7f26986ae0013521261",
+      "guest": {
+        "_id": "672aa647a14242583971c4a6",
+        "fullName": "Bronwen Faubert"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672aa647a14242583971c4a6",
+      "listing": {
+        "_id": "66c3d7f26986ae0013521261",
+        "title": "Perfect for Groups | Fenced-In Yard, Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 959.61
+        }
+      }
+    },
+    {
+      "_id": "66e05a02fb2c6b0047f74abb",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7e96986ae0013520e60",
+      "confirmationCode": "HMJKTXBCPP",
+      "checkIn": "2025-02-10T22:00:00.000Z",
+      "checkOut": "2025-02-13T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e96986ae0013520e60",
+        "title": "Modern Luxury Loft + Pool | Near DT"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05a02a0265f9617646621",
+      "guest": {
+        "_id": "66e05a02a0265f9617646621",
+        "fullName": "Meghann McNally"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 41.65
+        }
+      }
+    },
+    {
+      "_id": "671c24d8378815005098d63f",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HM5J5T38S9",
+      "checkIn": "2025-02-13T22:00:00.000Z",
+      "checkOut": "2025-02-16T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "guest": {
+        "_id": "671c24d8fe9dcfff75fd4e2b",
+        "fullName": "Stacy Noe"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "671c24d8fe9dcfff75fd4e2b",
+      "accounting": {
+        "analytics": {
+          "commission": 185.28
+        }
+      }
+    },
+    {
+      "_id": "6733bccd46866900ffa59e17",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7e523e128001218b15e",
+      "confirmationCode": "HMK4AH4SF2",
+      "checkIn": "2025-02-13T22:00:00.000Z",
+      "checkOut": "2025-02-16T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e523e128001218b15e",
+        "title": "Dual Nashville | 1 mile from DT Nash & Farmers Market"
+      },
+      "guest": {
+        "_id": "6733bccd22020d953803b0a5",
+        "fullName": "Amanda Marie"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6733bccd22020d953803b0a5",
+      "accounting": {
+        "analytics": {
+          "commission": 202.79
+        }
+      }
+    },
+    {
+      "_id": "674a1eda4313093e7bc54588",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-SRZhk6Xt",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a1edad7e55db20a097972",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "674a1edad7e55db20a097972",
+        "fullName": "Donovan Taylor"
+      },
+      "checkIn": "2025-02-14T22:00:00.000Z",
+      "checkOut": "2025-02-15T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 21.32
+        }
+      }
+    },
+    {
+      "_id": "66e05a1bb8d4ff006813afc9",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d77ff9a6290011434b3c",
+      "confirmationCode": "HMJPJHB4DB",
+      "checkIn": "2025-02-20T22:00:00.000Z",
+      "checkOut": "2025-02-24T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d77ff9a6290011434b3c",
+        "title": "Fun and Vibrant 4 BDR Just 4 Miles from DT"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05a1ba0265f9617646bb1",
+      "guest": {
+        "_id": "66e05a1ba0265f9617646bb1",
+        "fullName": "Devin Eldridge"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 248.01
+        }
+      }
+    },
+    {
+      "_id": "66fc94b4dad6c48f23ef0209",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dac3b11c9ac268b70e07",
+          "fullName": "Steve Brown",
+          "email": "sbrown1758@gmail.com",
+          "phone": "17346648317",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-aubMXMqg",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbc39cdbcd0c15ea22b3",
+      "listingId": "66c3d7aad0e89e006af0cd30",
+      "listing": {
+        "_id": "66c3d7aad0e89e006af0cd30",
+        "title": "Trendy Condo Close to Nissan Stadium"
+      },
+      "guest": {
+        "_id": "66c3dbc39cdbcd0c15ea22b3",
+        "fullName": "Steve Brown"
+      },
+      "checkIn": "2025-02-20T22:00:00.000Z",
+      "checkOut": "2025-02-23T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "67058cc01f757100cea9a2c8",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "confirmationCode": "HM2SZH8PDK",
+      "checkIn": "2025-02-20T22:00:00.000Z",
+      "checkOut": "2025-02-24T16:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "guest": {
+        "_id": "67058cbf320170986e1fb6cc",
+        "fullName": "Amanda MacFarlane"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67058cbf320170986e1fb6cc",
+      "accounting": {
+        "analytics": {
+          "commission": 130.14
+        }
+      }
+    },
+    {
+      "_id": "671685421ce460b75d28b56d",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66db8707858f0c4aec773fa6",
+          "fullName": "Emily Redding",
+          "email": "emilyrn23@gmail.com",
+          "phone": "17177991097",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-8XTiJUeY",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67168542251a869ad1eea390",
+      "listingId": "66db86502706bd0010ebd8f3",
+      "listing": {
+        "_id": "66db86502706bd0010ebd8f3",
+        "title": "Riverfront Charm – A Scenic Downtown Stay for 6!"
+      },
+      "guest": {
+        "_id": "67168542251a869ad1eea390",
+        "fullName": "Kathy Nagy"
+      },
+      "checkIn": "2025-02-21T22:00:00.000Z",
+      "checkOut": "2025-02-24T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "672ced980940153d017f7045",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-QtYndz43",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672cebc513f893f56dcb31c1",
+      "listingId": "66c3d77964ea230013a3adbc",
+      "listing": {
+        "_id": "66c3d77964ea230013a3adbc",
+        "title": "Chic West End Loft Right Next Door to Vanderbilt!"
+      },
+      "guest": {
+        "_id": "672cebc513f893f56dcb31c1",
+        "fullName": "Braedon Kilgore"
+      },
+      "checkIn": "2025-02-28T22:00:00.000Z",
+      "checkOut": "2025-03-31T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 259.49
+        }
+      }
+    },
+    {
+      "_id": "66e0592c6eca9f00bfdcb32f",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1218921",
+      "listingId": "66c3d7f67db5760013acf0f6",
+      "guestId": "66e057391e33f83e2ef8bbaa",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-03-06T22:00:00.000Z",
+      "checkOut": "2025-03-09T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7f67db5760013acf0f6",
+        "title": "Great Family Home near Downtown"
+      },
+      "guest": {
+        "_id": "66e057391e33f83e2ef8bbaa",
+        "fullName": "Calvin Schumacher"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 143.76
+        }
+      }
+    },
+    {
+      "_id": "66e05a4ac99c820070b3fcf0",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HMZTEJMNQ9",
+      "checkIn": "2025-03-07T22:00:00.000Z",
+      "checkOut": "2025-03-10T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05a4af7497e03e9f695a9",
+      "guest": {
+        "_id": "66e05a4af7497e03e9f695a9",
+        "fullName": "Hunter Buxton"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 188.48
+        }
+      }
+    },
+    {
+      "_id": "67411fd9a9140800798e4d0a",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-ZDLOcL8",
+      "checkIn": "2025-03-07T22:00:00.000Z",
+      "checkOut": "2025-03-10T15:00:00.000Z",
+      "listingId": "66c3d7764e36be001066b4ce",
+      "guest": {
+        "_id": "67411fd838ae2ec0f7416f8a",
+        "fullName": "Gabriela Barrera"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67411fd838ae2ec0f7416f8a",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 169.86
+        }
+      }
+    },
+    {
+      "_id": "66dcc52e30dedf001281aefa",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1214263",
+      "listingId": "66c3d847e563b90013e47772",
+      "guestId": "66d8f26f8b895f3e8e7c787e",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-03-13T21:00:00.000Z",
+      "checkOut": "2025-03-16T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "guest": {
+        "_id": "66d8f26f8b895f3e8e7c787e",
+        "fullName": "Hannah Anderson"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 111.37
+        }
+      }
+    },
+    {
+      "_id": "6717c2132c467b0029c75f74",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-WlRSbb3",
+      "checkIn": "2025-03-13T21:00:00.000Z",
+      "checkOut": "2025-03-16T15:00:00.000Z",
+      "listingId": "66c3d7824e36be001066b876",
+      "guest": {
+        "_id": "66c4e73e297e36782d4a43de",
+        "fullName": "Steve Wilke"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c4e73e297e36782d4a43de",
+      "listing": {
+        "_id": "66c3d7824e36be001066b876",
+        "title": "Trendy WeHo Home  | Near DT Nashville!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 204.48
+        }
+      }
+    },
+    {
+      "_id": "6733fde3a32d310051d488ec",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-uk0anJn",
+      "checkIn": "2025-03-14T21:00:00.000Z",
+      "checkOut": "2025-03-17T15:00:00.000Z",
+      "listingId": "66c3d7e523e128001218b15e",
+      "guest": {
+        "_id": "6733fde222020d9538041942",
+        "fullName": "Beth Kay"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6733fde222020d9538041942",
+      "listing": {
+        "_id": "66c3d7e523e128001218b15e",
+        "title": "Dual Nashville | 1 mile from DT Nash & Farmers Market"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 285.31
+        }
+      }
+    },
+    {
+      "_id": "66ff24c82d4e44000e89234b",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "confirmationCode": "HMQK24KSMM",
+      "checkIn": "2025-03-21T21:00:00.000Z",
+      "checkOut": "2025-03-25T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "guest": {
+        "_id": "66ff24c814d74febcfaa9b18",
+        "fullName": "Barbara Gilbert"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66ff24c814d74febcfaa9b18",
+      "accounting": {
+        "analytics": {
+          "commission": 138.7
+        }
+      }
+    },
+    {
+      "_id": "673771e06958bd0012e405fb",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7b9fc6845001295f415",
+      "confirmationCode": "HMNZZ2SHFH",
+      "checkIn": "2025-03-21T21:00:00.000Z",
+      "checkOut": "2025-03-24T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7b9fc6845001295f415",
+        "title": "Luxury 3 Bed Close to Downtown!"
+      },
+      "guest": {
+        "_id": "673771df3d66b3e1d826de7e",
+        "fullName": "Deven McCormick"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673771df3d66b3e1d826de7e",
+      "accounting": {
+        "analytics": {
+          "commission": 113.4
+        }
+      }
+    },
+    {
+      "_id": "66e504d6fba32100cc0da27b",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-c87XPyc",
+      "checkIn": "2025-03-26T21:00:00.000Z",
+      "checkOut": "2025-03-31T15:00:00.000Z",
+      "listingId": "66c3d830f0b10c00129fc4f6",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e504d6f7497e03e90a6878",
+      "listing": {
+        "_id": "66c3d830f0b10c00129fc4f6",
+        "title": "Pet Friendly | Near DT Nash & Music Row!"
+      },
+      "guest": {
+        "_id": "66e504d6f7497e03e90a6878",
+        "fullName": "Kevin Seal"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 146.48
+        }
+      }
+    },
+    {
+      "_id": "674790784313093e7bc21c01",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-rpLmDf5E",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67478f52d7e55db20a02795c",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "67478f52d7e55db20a02795c",
+        "fullName": "Kim Sedwell"
+      },
+      "checkIn": "2025-03-27T21:00:00.000Z",
+      "checkOut": "2025-04-01T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 107.84
+        }
+      }
+    },
+    {
+      "_id": "674a2f2ad2f86d00371d27f1",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7b9fc6845001295f415",
+      "confirmationCode": "HMPYYDWAWA",
+      "checkIn": "2025-03-27T21:00:00.000Z",
+      "checkOut": "2025-03-30T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7b9fc6845001295f415",
+        "title": "Luxury 3 Bed Close to Downtown!"
+      },
+      "guest": {
+        "_id": "674a2f29e438338739d1ab6e",
+        "fullName": "Alyssa Eannotti"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a2f29e438338739d1ab6e",
+      "accounting": {
+        "analytics": {
+          "commission": 123.39
+        }
+      }
+    },
+    {
+      "_id": "6727ea085f70c100a0e59ed6",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-YSoWzIk",
+      "checkIn": "2025-03-28T21:00:00.000Z",
+      "checkOut": "2025-03-31T15:00:00.000Z",
+      "listingId": "66c3d7764e36be001066b4ce",
+      "guest": {
+        "_id": "6727ea08a1424258396f27ae",
+        "fullName": "Micheyle Goldman"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6727ea08a1424258396f27ae",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 191.66
+        }
+      }
+    },
+    {
+      "_id": "67169f9f4c485000820c8aeb",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d803cc22430013e1d545",
+      "listing": {
+        "_id": "66c3d803cc22430013e1d545",
+        "title": "Side by Side Townhomes in East Nashville"
+      },
+      "guest": {
+        "_id": "67169f9febd4cdc5aa0d5c7c",
+        "fullName": "Amy Hall"
+      },
+      "checkIn": "2025-03-29T21:00:00.000Z",
+      "checkOut": "2025-04-01T15:00:00.000Z",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67169f9febd4cdc5aa0d5c7c",
+      "accounting": {
+        "analytics": {
+          "commission": 188.88
+        }
+      },
+      "confirmationCode": "HA-Q3BzUGO"
+    },
+    {
+      "_id": "6745fdca43fb04008b436e32",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HMYJN93KB5",
+      "checkIn": "2025-04-04T21:00:00.000Z",
+      "checkOut": "2025-04-07T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "guest": {
+        "_id": "6745fdcae438338739cbc6cb",
+        "fullName": "Madison Sigmon"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6745fdcae438338739cbc6cb",
+      "accounting": {
+        "analytics": {
+          "commission": 232.14
+        }
+      }
+    },
+    {
+      "_id": "66dcc53230dedf001281af4c",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1215721",
+      "listingId": "66c3d847e563b90013e47772",
+      "guestId": "66d8f2ae8b895f3e8e7c79bc",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-04-10T21:00:00.000Z",
+      "checkOut": "2025-04-13T15:00:00.000Z",
+      "guest": {
+        "_id": "66d8f2ae8b895f3e8e7c79bc",
+        "fullName": "Rebecca Dalrick"
+      },
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 99.76
+        }
+      }
+    },
+    {
+      "_id": "672ed23a6c1146001a574ccb",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d77ff9a6290011434b3c",
+      "confirmationCode": "HMM5F8KZWF",
+      "checkIn": "2025-04-11T21:00:00.000Z",
+      "checkOut": "2025-04-15T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d77ff9a6290011434b3c",
+        "title": "Fun and Vibrant 4 BDR Just 4 Miles from DT"
+      },
+      "guest": {
+        "_id": "672ed23a9c293b1993fcaacc",
+        "fullName": "Jessica Miller"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "672ed23a9c293b1993fcaacc",
+      "accounting": {
+        "analytics": {
+          "commission": 255.03
+        }
+      }
+    },
+    {
+      "_id": "674a1f687b09b56f8c91f6e8",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-QiNte2cy",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674a1f685a82b720a29473ae",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "674a1f685a82b720a29473ae",
+        "fullName": "Alejandro Noriega"
+      },
+      "checkIn": "2025-04-11T21:00:00.000Z",
+      "checkOut": "2025-04-12T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 21.32
+        }
+      }
+    },
+    {
+      "_id": "6743af35bf359500585aca25",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7956a7e6e0012201a2f",
+      "confirmationCode": "HM8K9S9KM4",
+      "checkIn": "2025-04-12T21:00:00.000Z",
+      "checkOut": "2025-04-17T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7956a7e6e0012201a2f",
+        "title": "Emerald Shores | Rooftop Deck"
+      },
+      "guest": {
+        "_id": "6743af3538ae2ec0f7447a79",
+        "fullName": "Megan Forristall"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6743af3538ae2ec0f7447a79",
+      "accounting": {
+        "analytics": {
+          "commission": 189.78
+        }
+      }
+    },
+    {
+      "_id": "673398cbc6eb3d011e957fe9",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7b9fc6845001295f415",
+      "confirmationCode": "HMW9433TNS",
+      "checkIn": "2025-04-17T21:00:00.000Z",
+      "checkOut": "2025-04-20T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7b9fc6845001295f415",
+        "title": "Luxury 3 Bed Close to Downtown!"
+      },
+      "guest": {
+        "_id": "673398cb22020d9538034bd7",
+        "fullName": "Bav Deo"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673398cb22020d9538034bd7",
+      "accounting": {
+        "analytics": {
+          "commission": 120.92
+        }
+      }
+    },
+    {
+      "_id": "674792684313093e7bc220a1",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-F54vrnrQ",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67479267d7e55db20a028415",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "67479267d7e55db20a028415",
+        "fullName": "David Bramlett"
+      },
+      "checkIn": "2025-04-18T21:00:00.000Z",
+      "checkOut": "2025-04-21T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 62.78
+        }
+      }
+    },
+    {
+      "_id": "66e059a658d35900215ad211",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d803cc22430013e1d545",
+      "confirmationCode": "HMY5HD5CDT",
+      "checkIn": "2025-04-24T21:00:00.000Z",
+      "checkOut": "2025-04-27T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d803cc22430013e1d545",
+        "title": "Side by Side Townhomes in East Nashville"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e059a6a0265f961764538e",
+      "guest": {
+        "_id": "66e059a6a0265f961764538e",
+        "fullName": "Francesca Faulkner"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 164.76
+        }
+      }
+    },
+    {
+      "_id": "66f2dfb47b95c6001a025f3a",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7636341480012088569",
+      "listing": {
+        "_id": "66c3d7636341480012088569",
+        "title": "Blue Bird | Access to Cumberland River!"
+      },
+      "guest": {
+        "_id": "66f2dfb352dcc79780b1302b",
+        "fullName": "Jason Buffington"
+      },
+      "checkIn": "2025-04-25T21:00:00.000Z",
+      "checkOut": "2025-04-29T15:00:00.000Z",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66f2dfb352dcc79780b1302b",
+      "accounting": {
+        "analytics": {
+          "commission": 191.97
+        }
+      },
+      "confirmationCode": "HA-dN1FAyr"
+    },
+    {
+      "_id": "66ff0dac7dd0ee0079caeb79",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7b9fc6845001295f415",
+      "confirmationCode": "HMRJ3EENZB",
+      "checkIn": "2025-04-25T21:00:00.000Z",
+      "checkOut": "2025-04-28T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7b9fc6845001295f415",
+        "title": "Luxury 3 Bed Close to Downtown!"
+      },
+      "guest": {
+        "_id": "66ff0dab8cea548a364ccbd4",
+        "fullName": "Heidi Carver"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66ff0dab8cea548a364ccbd4",
+      "accounting": {
+        "analytics": {
+          "commission": 120.02
+        }
+      }
+    },
+    {
+      "_id": "673e2be6a9140800798aa555",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-RxXnzy6",
+      "checkIn": "2025-04-25T21:00:00.000Z",
+      "checkOut": "2025-04-28T15:00:00.000Z",
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "guest": {
+        "_id": "673e2be5aaa5c8b131aab603",
+        "fullName": "Beth Gilbert"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673e2be5aaa5c8b131aab603",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 111.32
+        }
+      }
+    },
+    {
+      "_id": "66e05a4a0a559c007ff01878",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d94e36be001066c60e",
+      "confirmationCode": "HMWZWKZAAN",
+      "checkIn": "2025-04-30T21:00:00.000Z",
+      "checkOut": "2025-05-04T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d94e36be001066c60e",
+        "title": "Rooftop View of DT | Near the Gulch"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05a4af7497e03e9f695c2",
+      "guest": {
+        "_id": "66e05a4af7497e03e9f695c2",
+        "fullName": "Stephen Leupolt"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 319.49
+        }
+      }
+    },
+    {
+      "_id": "66dcc53439d934001169fcef",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1206854",
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "guestId": "66d8f1c5cbc25c43185614c3",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-05-01T21:00:00.000Z",
+      "checkOut": "2025-05-05T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "guest": {
+        "_id": "66d8f1c5cbc25c43185614c3",
+        "fullName": "Todd Armstrong"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 195.14
+        }
+      }
+    },
+    {
+      "_id": "66f18d08651a9d004aa2667b",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-bbBMYun",
+      "checkIn": "2025-05-01T21:00:00.000Z",
+      "checkOut": "2025-05-06T15:00:00.000Z",
+      "listingId": "66c3d7b9fc6845001295f415",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66f18d0890d420bfa39340ad",
+      "listing": {
+        "_id": "66c3d7b9fc6845001295f415",
+        "title": "Luxury 3 Bed Close to Downtown!"
+      },
+      "guest": {
+        "_id": "66f18d0890d420bfa39340ad",
+        "fullName": "LeAnne Brayley"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 204.74
+        }
+      }
+    },
+    {
+      "_id": "671f953787f4ea00668c8e4b",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-IAAIuTg",
+      "checkIn": "2025-05-01T21:00:00.000Z",
+      "checkOut": "2025-05-04T15:00:00.000Z",
+      "listingId": "66c3d7fa855568000f31b85a",
+      "guest": {
+        "_id": "671f9536fe9dcfff750941e8",
+        "fullName": "Mary Van Engen"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "671f9536fe9dcfff750941e8",
+      "listing": {
+        "_id": "66c3d7fa855568000f31b85a",
+        "title": "Riverfront Condo Minutes from Broadway"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 118.64
+        }
+      }
+    },
+    {
+      "_id": "673e9471a9140800798b5d16",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-lwm1HV1",
+      "checkIn": "2025-05-01T21:00:00.000Z",
+      "checkOut": "2025-05-04T15:00:00.000Z",
+      "listingId": "66c3d7824e36be001066b876",
+      "guest": {
+        "_id": "673e947038ae2ec0f73d688e",
+        "fullName": "Brian Hartman"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "673e947038ae2ec0f73d688e",
+      "listing": {
+        "_id": "66c3d7824e36be001066b876",
+        "title": "Trendy WeHo Home  | Near DT Nashville!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 226.8
+        }
+      }
+    },
+    {
+      "_id": "674798854313093e7bc22aba",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-5c2PBxWP",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "67479885d7e55db20a02978f",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "67479885d7e55db20a02978f",
+        "fullName": "Carlos Valdes"
+      },
+      "checkIn": "2025-05-01T21:00:00.000Z",
+      "checkOut": "2025-05-04T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 62.78
+        }
+      }
+    },
+    {
+      "_id": "66db5985db0724769ce279a5",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da69b11c9ac268b70403",
+          "fullName": null,
+          "email": null,
+          "phone": null,
+          "locale": null
+        }
+      },
+      "confirmationCode": "1209798",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c4de749cdbcd0c15ec0b60",
+      "listingId": "66c3d847e563b90013e47772",
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "guest": {
+        "_id": "66c4de749cdbcd0c15ec0b60",
+        "fullName": "Brooke Arvik"
+      },
+      "checkIn": "2025-05-02T21:00:00.000Z",
+      "checkOut": "2025-05-04T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "66e059480bd343002b9bca0c",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7764e36be001066b4ce",
+      "confirmationCode": "HM8MYY9Z2C",
+      "checkIn": "2025-05-08T21:00:00.000Z",
+      "checkOut": "2025-05-11T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05947f7497e03e9f66918",
+      "guest": {
+        "_id": "66e05947f7497e03e9f66918",
+        "fullName": "Morgan Tenney"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 167.18
+        }
+      }
+    },
+    {
+      "_id": "6707bc98c54eaece727ff16b",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66e877f879601206b52d2b7b",
+          "fullName": "Amy & Nathan Galloway",
+          "email": "aea144@yahoo.com",
+          "phone": "+1 6154763641",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-v7iJC7qk",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6707bc9871140f2637e5ab21",
+      "listingId": "66e86a5778acd30013f76f2e",
+      "listing": {
+        "_id": "66e86a5778acd30013f76f2e",
+        "title": "Chic Condo for 4 Near West End"
+      },
+      "guest": {
+        "_id": "6707bc9871140f2637e5ab21",
+        "fullName": "Amy & Nathan Galloway"
+      },
+      "checkIn": "2025-05-08T21:00:00.000Z",
+      "checkOut": "2025-05-12T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "6747ab757b09b56f8c8ef3ba",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-rQU2TLgQ",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6747ab755a82b720a28d929e",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "6747ab755a82b720a28d929e",
+        "fullName": "Paul Esom"
+      },
+      "checkIn": "2025-05-14T21:00:00.000Z",
+      "checkOut": "2025-05-18T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 86.45
+        }
+      }
+    },
+    {
+      "_id": "67294832df6d199860f6c422",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da7dbc6ac87bd187b332",
+          "fullName": "Frank Hurd",
+          "email": "frankhurd.us@gmail.com",
+          "phone": "14012556974",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-ADDwkHgi",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3db7d9cdbcd0c15ea2177",
+      "listingId": "66c3d798654520001258d9db",
+      "listing": {
+        "_id": "66c3d798654520001258d9db",
+        "title": "Hello Goodbye | Ultimate Experience!"
+      },
+      "guest": {
+        "_id": "66c3db7d9cdbcd0c15ea2177",
+        "fullName": "Frank Hurd"
+      },
+      "checkIn": "2025-06-01T21:00:00.000Z",
+      "checkOut": "2025-06-02T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "66dcc555bcc3b10013b0b2f3",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1211148",
+      "listingId": "66c3d7e96986ae0013520e60",
+      "guestId": "66d8f21acbc25c43185617d4",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-06-02T21:00:00.000Z",
+      "checkOut": "2025-06-09T15:00:00.000Z",
+      "guest": {
+        "_id": "66d8f21acbc25c43185617d4",
+        "fullName": "Susan Bernard"
+      },
+      "listing": {
+        "_id": "66c3d7e96986ae0013520e60",
+        "title": "Modern Luxury Loft + Pool | Near DT"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 340.72
+        }
+      }
+    },
+    {
+      "_id": "672948630940153d017a9903",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da7dbc6ac87bd187b332",
+          "fullName": "Frank Hurd",
+          "email": "frankhurd.us@gmail.com",
+          "phone": "14012556974",
+          "locale": "en-US"
+        }
+      },
+      "confirmationCode": "GY-rPjswma2",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3db7d9cdbcd0c15ea2177",
+      "listingId": "66c3d798654520001258d9db",
+      "listing": {
+        "_id": "66c3d798654520001258d9db",
+        "title": "Hello Goodbye | Ultimate Experience!"
+      },
+      "guest": {
+        "_id": "66c3db7d9cdbcd0c15ea2177",
+        "fullName": "Frank Hurd"
+      },
+      "checkIn": "2025-06-02T21:00:00.000Z",
+      "checkOut": "2025-11-04T16:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "66e05a53fb2c6b0047f75099",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7d523e128001218ad16",
+      "confirmationCode": "HM82S2QDDW",
+      "checkIn": "2025-06-03T21:00:00.000Z",
+      "checkOut": "2025-06-10T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d523e128001218ad16",
+        "title": "Riverfront Condo in DT"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05a53a0265f9617647b68",
+      "guest": {
+        "_id": "66e05a53a0265f9617647b68",
+        "fullName": "Casandra Reid"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 226.89
+        }
+      }
+    },
+    {
+      "_id": "6738c69fcb48cf005eee1275",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-gL1gAGB",
+      "checkIn": "2025-06-03T21:00:00.000Z",
+      "checkOut": "2025-06-06T15:00:00.000Z",
+      "listingId": "66c3d7764e36be001066b4ce",
+      "guest": {
+        "_id": "6738c69fa72f4adc21322e33",
+        "fullName": "Karlee Burditt"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6738c69fa72f4adc21322e33",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 203.96
+        }
+      }
+    },
+    {
+      "_id": "66dcc54f39d93400116a012a",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1203915",
+      "listingId": "66c3d83ff9a6290011435a32",
+      "guestId": "66d8f1af7beee5c5d4302e61",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-06-04T21:00:00.000Z",
+      "checkOut": "2025-06-09T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d83ff9a6290011435a32",
+        "title": "Riverfront Condo Centrally located Near DT"
+      },
+      "guest": {
+        "_id": "66d8f1af7beee5c5d4302e61",
+        "fullName": "Brian Pinelle"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 164
+        }
+      }
+    },
+    {
+      "_id": "66db598c9374c35a64ab68aa",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3dac3b11c9ac268b70e07",
+          "fullName": null,
+          "email": null,
+          "phone": null,
+          "locale": null
+        }
+      },
+      "confirmationCode": "1216165",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66c3dbc39cdbcd0c15ea22b3",
+      "listingId": "66c3d7aad0e89e006af0cd30",
+      "listing": {
+        "_id": "66c3d7aad0e89e006af0cd30",
+        "title": "Trendy Condo Close to Nissan Stadium"
+      },
+      "guest": {
+        "_id": "66c3dbc39cdbcd0c15ea22b3",
+        "fullName": "Steve Brown"
+      },
+      "checkIn": "2025-06-05T21:00:00.000Z",
+      "checkOut": "2025-06-09T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "66dcc559b7b0c30013bba241",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1200674",
+      "listingId": "66c3d792350d4d0012c87b0c",
+      "guestId": "66d8f1a37beee5c5d4302de7",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-06-05T21:00:00.000Z",
+      "checkOut": "2025-06-10T15:00:00.000Z",
+      "guest": {
+        "_id": "66d8f1a37beee5c5d4302de7",
+        "fullName": "Birgitte Shus"
+      },
+      "listing": {
+        "_id": "66c3d792350d4d0012c87b0c",
+        "title": "Cumberland River Condo Near DT!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 248.65
+        }
+      }
+    },
+    {
+      "_id": "674606f4555ed50041aac769",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-yqxvCwZ",
+      "checkIn": "2025-06-05T21:00:00.000Z",
+      "checkOut": "2025-06-09T15:00:00.000Z",
+      "listingId": "671f7f1720146f007c72223f",
+      "guest": {
+        "_id": "674606f353d614050085afa7",
+        "fullName": "Robert Wessa"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "674606f353d614050085afa7",
+      "listing": {
+        "_id": "671f7f1720146f007c72223f",
+        "title": "Modern 2 BDR w/ River View Balcony, Walk to DT!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 297.28
+        }
+      }
+    },
+    {
+      "_id": "6747ac8a7b09b56f8c8ef5b2",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-ZHtRumPm",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6747ac8ad7e55db20a02d95e",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "6747ac8ad7e55db20a02d95e",
+        "fullName": "Jonathan Ashe"
+      },
+      "checkIn": "2025-06-05T21:00:00.000Z",
+      "checkOut": "2025-06-09T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 84.36
+        }
+      }
+    },
+    {
+      "_id": "66e0594860f69a0018136d99",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7764e36be001066b4ce",
+      "confirmationCode": "HMYHPTN8ZJ",
+      "checkIn": "2025-06-06T21:00:00.000Z",
+      "checkOut": "2025-06-09T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05948a0265f9617644758",
+      "guest": {
+        "_id": "66e05948a0265f9617644758",
+        "fullName": "Madeline Graham"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 186.84
+        }
+      }
+    },
+    {
+      "_id": "6718fa296b519d00762a338b",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-AMUa2Sq",
+      "checkIn": "2025-06-07T21:00:00.000Z",
+      "checkOut": "2025-06-11T15:00:00.000Z",
+      "listingId": "66c3d7e1350d4d0012c8802f",
+      "guest": {
+        "_id": "6718fa29ebd4cdc5aa171213",
+        "fullName": "Armistead Grandstaff"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6718fa29ebd4cdc5aa171213",
+      "listing": {
+        "_id": "66c3d7e1350d4d0012c8802f",
+        "title": "Green Hills Escape | Family & Pet Friendly"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 148.82
+        }
+      }
+    },
+    {
+      "_id": "66f60167c9e92a00952c816e",
+      "integration": {
+        "platform": "homeaway2",
+        "_id": "66d8c882b0c7150010541945",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "HA-fBDGN2n",
+      "checkIn": "2025-06-19T21:00:00.000Z",
+      "checkOut": "2025-06-22T15:00:00.000Z",
+      "listingId": "66c3d7764e36be001066b4ce",
+      "guest": {
+        "_id": "66f6016752dcc79780bcb604",
+        "fullName": "Mandie Kleist"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66f6016752dcc79780bcb604",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 285.08
+        }
+      }
+    },
+    {
+      "_id": "66dcc56139d93400116a01e0",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1218485",
+      "listingId": "66c3d74f6a7e6e0012200fd3",
+      "guestId": "66db4bcf8b895f3e8e7e25ab",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-06-23T21:00:00.000Z",
+      "checkOut": "2025-06-27T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d74f6a7e6e0012200fd3",
+        "title": "Luxurious 4BR home, Pet friendly!"
+      },
+      "guest": {
+        "_id": "66db4bcf8b895f3e8e7e25ab",
+        "fullName": "Sharon Holmes"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 197.39
+        }
+      }
+    },
+    {
+      "_id": "6747b1d07b09b56f8c8efc55",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "GY-fbMcYXR8",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "6747b1d05a82b720a28da580",
+      "listingId": "673cfbd8b24ad60012840e19",
+      "listing": {
+        "_id": "673cfbd8b24ad60012840e19",
+        "title": "Hillview Sanctuary: Studio for 2"
+      },
+      "guest": {
+        "_id": "6747b1d05a82b720a28da580",
+        "fullName": "Mia Eatherington"
+      },
+      "checkIn": "2025-07-01T21:00:00.000Z",
+      "checkOut": "2025-07-31T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 316.56
+        }
+      }
+    },
+    {
+      "_id": "66db59919374c35a64ab68be",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": {
+        "owner": {
+          "_id": "66c3da69b11c9ac268b70403",
+          "fullName": null,
+          "email": null,
+          "phone": null,
+          "locale": null
+        }
+      },
+      "confirmationCode": "1217733",
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66d9c102cbc25c431856c02e",
+      "listingId": "66c3d847e563b90013e47772",
+      "listing": {
+        "_id": "66c3d847e563b90013e47772",
+        "title": "Charming Townhome in Trendy East Nashville"
+      },
+      "guest": {
+        "_id": "66d9c102cbc25c431856c02e",
+        "fullName": "Payton Netz"
+      },
+      "checkIn": "2025-07-10T21:00:00.000Z",
+      "checkOut": "2025-07-14T15:00:00.000Z",
+      "accounting": {
+        "analytics": {
+          "commission": 0
+        }
+      }
+    },
+    {
+      "_id": "66dcc564bcc3b10013b0b414",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1216194",
+      "listingId": "66c3d803cc22430013e1d545",
+      "guestId": "66d8f2c97beee5c5d430322c",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-07-10T21:00:00.000Z",
+      "checkOut": "2025-07-13T15:00:00.000Z",
+      "guest": {
+        "_id": "66d8f2c97beee5c5d430322c",
+        "fullName": "Rebecca Johnson"
+      },
+      "listing": {
+        "_id": "66c3d803cc22430013e1d545",
+        "title": "Side by Side Townhomes in East Nashville"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 251.59
+        }
+      }
+    },
+    {
+      "_id": "66e05949013a4900273d0e40",
+      "integration": {
+        "platform": "airbnb2",
+        "_id": "66e05120e46aa7498a337fc3",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "listingId": "66c3d7764e36be001066b4ce",
+      "confirmationCode": "HMCENBFCP5",
+      "checkIn": "2025-07-10T21:00:00.000Z",
+      "checkOut": "2025-07-13T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7764e36be001066b4ce",
+        "title": "Glamorous 3 BDR in East Nashville – Pet Friendly!"
+      },
+      "accountId": "66a30f2c3dcec327386823af",
+      "guestId": "66e05949f7497e03e9f66934",
+      "guest": {
+        "_id": "66e05949f7497e03e9f66934",
+        "fullName": "Bailey Edinburgh"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 118.74
+        }
+      }
+    },
+    {
+      "_id": "66dcc568bcc3b10013b0b48b",
+      "integration": {
+        "_id": "66c4f0efc4d81f0012079035",
+        "platform": "manual",
+        "limitations": {
+          "availableStatuses": []
+        }
+      },
+      "creationInfo": null,
+      "confirmationCode": "1191483",
+      "listingId": "66c3d7d523e128001218ad16",
+      "guestId": "66d8f1698b895f3e8e7c763c",
+      "accountId": "66a30f2c3dcec327386823af",
+      "checkIn": "2025-07-15T21:00:00.000Z",
+      "checkOut": "2025-07-18T15:00:00.000Z",
+      "listing": {
+        "_id": "66c3d7d523e128001218ad16",
+        "title": "Riverfront Condo in DT"
+      },
+      "guest": {
+        "_id": "66d8f1698b895f3e8e7c763c",
+        "fullName": "Erin O Donnell"
+      },
+      "accounting": {
+        "analytics": {
+          "commission": 80.18
+        }
+      }
+    }
+  ],
+  "title": "Bookings Report",
+  "count": 184,
+  "fields": "checkIn checkOut confirmationCode guest.fullName listing.title creationInfo",
+  "limit": 100,
+  "skip": 100
+}
