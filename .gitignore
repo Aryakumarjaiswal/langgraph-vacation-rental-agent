@@ -2,6 +2,5 @@
 __pycache__
 *.pyc
 chroma_db/UNITS_INFO_CHUNCK/
-.streamlit/secrets.toml
 understand.md
 
