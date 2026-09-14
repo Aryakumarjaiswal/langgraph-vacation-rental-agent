@@ -20,6 +20,9 @@ The app ships with a **Streamlit** multi-page UI, a **FastAPI** auth layer, and 
 - 🗄️ **Database:** MySQL + SQLAlchemy (4 core tables)
 - 📞 **Voice Handoff:** Twilio Programmable Voice (contextual `<Say>` on answer)
 - 🔐 **Auth:** bcrypt password hashing, role-based access (`guest` / `staff`)
+- 🐳 **Containerization:** Docker (separate API + Streamlit images)
+- ☸️ **Orchestration:** Kubernetes (Deployments, Services, PVC, HPA)
+- 🔄 **CI/CD:** GitHub Actions (test, build, push to GHCR)
 
 ---
 
@@ -73,6 +76,20 @@ vacation-property/
 │   └── bookings.json            # Sample booking data
 ├── chroma_db/                   # Persistent vector store (generated)
 ├── chunck_creation.ipynb        # Jupyter walkthrough for chunking pipeline
+├── docker/
+│   ├── Dockerfile.api           # FastAPI container
+│   └── Dockerfile.streamlit     # Streamlit container (+ pre-cached embeddings)
+├── k8s/
+│   ├── configmap.yaml           # Non-secret env vars
+│   ├── secret.example.yaml      # Template for secrets (copy → secret.yaml)
+│   ├── api-deployment.yaml      # FastAPI Deployment
+│   ├── api-service.yaml         # ClusterIP for API
+│   ├── streamlit-deployment.yaml
+│   ├── streamlit-service.yaml   # LoadBalancer for UI
+│   ├── pvc.yaml                 # Chroma persistent volume
+│   └── hpa.yaml                 # API autoscaler (2–6 pods, CPU 70%)
+├── .github/workflows/
+│   └── cicd.yml                 # Test + build + push images
 ├── Database.py                  # SQLAlchemy models (4 tables)
 ├── streamlit_app.py             # App entry + navigation
 ├── .env.example                 # Environment template
@@ -105,6 +122,8 @@ EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
 CHROMA_PATH=chroma_db/UNITS_INFO_CHUNCK
 FINAL_DATA_PATH=data/final_data.xlsx
 
+
+API_BASE_URL=http://127.0.0.1:8000
 
 # Twilio voice escalation
 EXECUTIVE_PHONE=+91XXXXXXXXXX
@@ -202,7 +221,91 @@ API_BASE_URL=https://your-subdomain.ngrok-free.app
 
 ---
 
+## 🐳 Docker
 
+Build from the project root:
+
+```bash
+docker build -f docker/Dockerfile.api -t stayops-api:latest .
+docker build -f docker/Dockerfile.streamlit -t stayops-streamlit:latest .
+```
+
+Run locally (MySQL must be reachable from the container):
+
+```bash
+docker run --rm -p 8000:8000 --env-file .env stayops-api:latest
+
+docker run --rm -p 8501:8501 --env-file .env \
+  -e API_BASE_URL=http://host.docker.internal:8000 \
+  stayops-streamlit:latest
+```
+
+---
+
+## ☸️ Kubernetes Deployment
+
+**Prerequisites:** cluster access, `kubectl`, external MySQL, `data/final_data.xlsx` in the image or mounted volume.
+
+1. **Update image names** in `k8s/api-deployment.yaml` and `k8s/streamlit-deployment.yaml` to match your GHCR path (after CI/CD push).
+
+2. **Create secrets** (never commit `k8s/secret.yaml`):
+
+```bash
+cp k8s/secret.example.yaml k8s/secret.yaml
+# Edit secret.yaml — DB_PASSWORD, GEMINI_API_KEY, PUBLIC_API_URL, Twilio keys
+kubectl apply -f k8s/secret.yaml
+```
+
+3. **Apply manifests:**
+
+```bash
+kubectl apply -f k8s/configmap.yaml
+kubectl apply -f k8s/pvc.yaml
+kubectl apply -f k8s/api-deployment.yaml
+kubectl apply -f k8s/api-service.yaml
+kubectl apply -f k8s/streamlit-deployment.yaml
+kubectl apply -f k8s/streamlit-service.yaml
+kubectl apply -f k8s/hpa.yaml
+```
+
+4. **Index Chroma inside the Streamlit pod** (one-time):
+
+```bash
+kubectl exec -it deploy/stayops-streamlit -- python scripts/rebuild_chroma.py
+kubectl exec -it deploy/stayops-streamlit -- python scripts/seed_users.py
+```
+
+5. **Get UI URL:**
+
+```bash
+kubectl get svc stayops-streamlit
+```
+
+| Component | K8s service | Notes |
+| --- | --- | --- |
+| API | `stayops-api:8000` | Internal ClusterIP; expose via Ingress for Twilio |
+| Streamlit | `stayops-streamlit` | LoadBalancer on port 80 |
+| Chroma | PVC `stayops-chroma-pvc` | Streamlit runs 1 replica (RWO volume) |
+| HPA | `stayops-api-hpa` | Scales API 2→6 pods at 70% CPU |
+
+Set `PUBLIC_API_URL` in secrets to your **public API URL** so Twilio can fetch TwiML.
+
+---
+
+## 🔄 CI/CD (GitHub Actions)
+
+Workflow: `.github/workflows/cicd.yml`
+
+On push to `main` / `master`:
+
+1. **Test** — install deps, `compileall` syntax check  
+2. **Build & push** — Docker images to GitHub Container Registry:
+   - `ghcr.io/<owner>/<repo>-api:latest`
+   - `ghcr.io/<owner>/<repo>-streamlit:latest`
+
+Enable **Packages** write permission for `GITHUB_TOKEN` (default on GitHub Actions). After first push, pull images in Kubernetes or make packages public for cluster access.
+
+---
 
 ## 🗃️ Database Tables
 
