@@ -1,11 +1,13 @@
-# 🏡 StayOps — AI Vacation Rental Assistant
+# 🏡 StayOps — AI Vacation Rental Assistant 
 
-An end-to-end **AI-powered vacation rental operations platform** that helps **guests** get instant answers about their stay and empowers **staff** to query booking data in plain language. Built with **Google Gemini**, **LangGraph**, **RAG (ChromaDB)**, and a **Twilio voice handoff** for human escalation.
+An end-to-end **AI-powered vacation rental operations platform** that helps **guests** get instant answers about their stay and empowers **staff** to query booking data in plain language. Built with **Google Gemini**, **LangGraph**, **RAG (ChromaDB)**, and a **Twilio voice support** for support team to handle human escalation.
 
 The app ships with a **Streamlit** multi-page UI, a **FastAPI** auth layer, and a lean **MySQL** schema focused on users, chat sessions, and support transfers.
 
 
 ---
+
+🔥See Project Demo: https://youtu.be/j3kM_oU6mVM
 
 
 
