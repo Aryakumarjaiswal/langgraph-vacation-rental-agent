@@ -1,0 +1,315 @@
+/* StayOps — coastal villa atmosphere + light 3D depth */
+
+:root {
+  --so-ink: #121a22;
+  --so-lagoon: #0f766e;
+  --so-lagoon-deep: #0a4f4a;
+  --so-mist: #e8f0f2;
+  --so-foam: #f7fbfc;
+  --so-amber: #b8893a;
+  --so-glass: rgba(247, 251, 252, 0.78);
+  --so-glass-strong: rgba(247, 251, 252, 0.92);
+  --so-shadow: 0 28px 60px rgba(18, 26, 34, 0.18);
+  --so-shadow-soft: 0 12px 32px rgba(15, 118, 110, 0.16);
+}
+
+/* Soft atmospheric wash behind the app */
+[data-testid="stAppViewContainer"] {
+  background:
+    radial-gradient(1200px 520px at 12% -8%, rgba(15, 118, 110, 0.16), transparent 55%),
+    radial-gradient(900px 480px at 92% 8%, rgba(184, 137, 58, 0.14), transparent 50%),
+    linear-gradient(165deg, #dfe9ec 0%, #e8f0f2 42%, #f2f7f8 100%) !important;
+}
+
+[data-testid="stHeader"] {
+  background: rgba(232, 240, 242, 0.72) !important;
+  backdrop-filter: blur(14px);
+}
+
+[data-testid="stMainBlockContainer"] {
+  padding-top: 1.25rem;
+}
+
+/* Top nav polish */
+[data-testid="stSidebarNav"] a,
+[data-testid="stToolbar"],
+[data-testid="stHeadingWithActionElements"] {
+  font-family: "Sora", sans-serif !important;
+}
+
+section[data-testid="stMain"] h1 {
+  letter-spacing: -0.02em;
+}
+
+/* Metric polish */
+[data-testid="stMetric"] {
+  background: rgba(247, 251, 252, 0.72);
+  border: 1px solid rgba(197, 213, 218, 0.9);
+  border-radius: 14px;
+  padding: 0.65rem 0.85rem;
+  backdrop-filter: blur(8px);
+}
+
+div[data-testid="stButton"] > button {
+  transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+}
+
+div[data-testid="stButton"] > button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--so-shadow-soft);
+}
+
+div[data-testid="stButton"] > button[kind="primary"] {
+  background: linear-gradient(135deg, var(--so-lagoon) 0%, var(--so-lagoon-deep) 100%) !important;
+  border: none !important;
+}
+
+/* ——— Hero (Home) ——— */
+.so-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: min(72vh, 640px);
+  border-radius: 28px;
+  margin: 0 0 1.75rem 0;
+  box-shadow: var(--so-shadow);
+  transform-style: preserve-3d;
+  perspective: 1400px;
+  animation: so-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.so-hero__media {
+  position: absolute;
+  inset: 0;
+  background-image: var(--so-hero-image);
+  background-size: cover;
+  background-position: center 42%;
+  transform: scale(1.04) translateZ(0);
+  animation: so-drift 18s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+.so-hero__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.85rem;
+  min-height: min(72vh, 640px);
+  padding: clamp(1.6rem, 4vw, 3.4rem);
+  color: var(--so-ink);
+  max-width: 34rem;
+}
+
+.so-brand {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(2.8rem, 6.2vw, 4.6rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin: 0;
+  color: var(--so-ink);
+  text-shadow:
+    0 1px 2px rgba(255, 255, 255, 0.95),
+    0 0 24px rgba(255, 255, 255, 0.75);
+  animation: so-fade-up 0.85s 0.12s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.so-hero__headline {
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  line-height: 1.35;
+  margin: 0;
+  color: #1a2a32;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+  animation: so-fade-up 0.85s 0.22s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.so-hero__sub {
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  margin: 0;
+  max-width: 28rem;
+  color: #2a3a42;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.85);
+  animation: so-fade-up 0.85s 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ——— 3D showcase stage ——— */
+.so-stage {
+  perspective: 1600px;
+  margin: 0.25rem 0 1.5rem 0;
+  animation: so-rise 1s 0.15s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.so-card-3d {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  transform: rotateY(-8deg) rotateX(4deg) translateZ(0);
+  transform-style: preserve-3d;
+  box-shadow:
+    28px 36px 60px rgba(18, 26, 34, 0.22),
+    -8px -4px 24px rgba(255, 255, 255, 0.35);
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.55s ease;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.so-card-3d:hover {
+  transform: rotateY(-2deg) rotateX(1deg) translateY(-6px) scale(1.015);
+  box-shadow:
+    18px 28px 50px rgba(15, 118, 110, 0.28),
+    -6px -4px 18px rgba(255, 255, 255, 0.4);
+}
+
+.so-card-3d img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: translateZ(24px);
+}
+
+.so-card-3d__caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 1.15rem;
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.88));
+  color: var(--so-ink);
+  font-family: "Sora", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+/* ——— Auth / section shells ——— */
+.so-auth-shell {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  min-height: 420px;
+  margin-bottom: 1rem;
+  box-shadow: var(--so-shadow);
+  animation: so-rise 0.75s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.so-auth-shell__bg {
+  position: absolute;
+  inset: 0;
+  background-image: var(--so-auth-image);
+  background-size: cover;
+  background-position: center;
+  filter: saturate(1.05) contrast(1.02);
+  transform: scale(1.06);
+  animation: so-drift 22s ease-in-out infinite alternate;
+}
+
+.so-auth-shell__copy {
+  position: relative;
+  z-index: 1;
+  padding: clamp(1.4rem, 3vw, 2.4rem);
+  color: var(--so-ink);
+  max-width: 22rem;
+  text-shadow:
+    0 1px 2px rgba(255, 255, 255, 0.95),
+    0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+.so-auth-shell__copy h2 {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.05;
+}
+
+.so-auth-shell__copy p {
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.so-kicker {
+  font-family: "Sora", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--so-lagoon-deep);
+  margin: 0 0 0.35rem 0;
+}
+
+.so-panel-title {
+  font-family: "Fraunces", Georgia, serif !important;
+}
+
+/* Chat area glass feel */
+[data-testid="stVerticalBlockBorderWrapper"] {
+  background: var(--so-glass) !important;
+  backdrop-filter: blur(10px);
+  border-color: rgba(197, 213, 218, 0.85) !important;
+}
+
+@keyframes so-rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes so-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes so-drift {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.1) translate3d(-1.5%, -1%, 0);
+  }
+}
+
+@keyframes so-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.12);
+  }
+}
+
+@media (max-width: 768px) {
+  .so-hero {
+    min-height: 520px;
+    border-radius: 18px;
+  }
+
+  .so-hero__content {
+    min-height: 520px;
+    max-width: 100%;
+  }
+
+  .so-card-3d {
+    transform: rotateY(0deg) rotateX(0deg);
+  }
+}
