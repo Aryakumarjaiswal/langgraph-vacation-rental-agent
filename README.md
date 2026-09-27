@@ -4,10 +4,14 @@ An end-to-end **AI-powered vacation rental operations platform** that helps **gu
 
 The app ships with a **Streamlit** multi-page UI, a **FastAPI** auth layer, and a lean **MySQL** schema focused on users, chat sessions, and support transfers.
 
+<img width="1365" height="627" alt="image" src="https://github.com/user-attachments/assets/5830c694-796b-4761-8950-4fd1213b163b" />
 
 ---
 
-🔥See Project Demo: https://youtu.be/j3kM_oU6mVM
+
+
+
+🔥**See Project Demo**: https://youtu.be/j3kM_oU6mVM
 
 
 
