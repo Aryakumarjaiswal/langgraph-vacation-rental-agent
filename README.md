@@ -11,7 +11,7 @@ The app ships with a **Streamlit** multi-page UI, a **FastAPI** auth layer, and 
 
 
 
-🔥**See Project Demo**: https://youtu.be/j3kM_oU6mVM
+🔥**See Project Demo**: [https://youtu.be/j3kM_oU6mVM](https://youtu.be/SkFYwONgCq0)
 
 
 
